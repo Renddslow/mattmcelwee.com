@@ -1,6 +1,8 @@
 import { toHast } from 'mdast-util-to-hast';
 import { visit } from 'unist-util-visit';
 
+import slugID from './slugID.js';
+
 const toHTML =
   (options = {}) =>
   (tree) =>
@@ -25,6 +27,20 @@ const toHTML =
             return toHast(node);
           }
         },
+        heading: (h, node) => {
+          let title = '';
+          visit(node, 'text', ({ value }) => {
+            title = value;
+          });
+          const element = toHast(node);
+          element.properties = Object.assign({}, element.properties, {
+            id: slugID(title),
+          });
+          return element;
+        },
+      },
+      unknownHandler: (h, node) => {
+        if (node.type === 'element') return node;
       },
     });
 

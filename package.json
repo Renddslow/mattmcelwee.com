@@ -45,5 +45,8 @@
     "content/**/*.md": [
       "mcgregor tend"
     ]
+  },
+  "dependencies": {
+    "slugify": "^1.6.1"
   }
 }

@@ -11,7 +11,7 @@ import rehypeStringify from 'rehype-stringify';
 
 // mattmcelwee.com plugins
 import toHTML from './toHTML.js';
-// import TOC from './makeTOC.js';
+import createTOC from './createTOC.js';
 
 const make = async () => {
   const file = fs.readFileSync(path.join(process.cwd(), 'content/_index.md')).toString();
@@ -26,6 +26,7 @@ const make = async () => {
           block.content = await unified()
             .use(remarkParse)
             .use(remarkGfm)
+            .use(createTOC)
             .use(toHTML)
             .use(rehypeStringify)
             .process(block.content);
@@ -34,14 +35,16 @@ const make = async () => {
       }),
   );
 
+  const fm = blocks[0].name === 'frontmatter' ? blocks[0].content : {};
   const htmlBody = blocks
+    .filter(({ name }) => name !== 'frontmatter')
     .map(({ name, content }) => {
       if (name === 'markdown') return content.value;
       return `<div class="${name}">${content.value}</div>`;
     })
     .join('\n');
 
-  console.log(htmlBody);
+  console.log(fm);
 };
 
 make();
