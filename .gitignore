@@ -1,0 +1,7 @@
+resources
+node_modules
+public
+.idea/
+.env
+yarn-error.log*
+data/backlinks.json
