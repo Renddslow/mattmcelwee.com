@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        {{! Title }}
+        <title>{{#if isHome}}Matt McElwee{{else}}{{title}} • Matt McElwee{{/if}}</title>
+        <meta name="title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
+        <meta name="citation_title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
+        <meta name="og:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
+        <meta name="twitter:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
+        {{! Creator }}
+        <meta name="generator" content="https://github.com/Renddslow/mattmcelwee.com/">
+        <meta name="creator" content="mattmcelwee.com">
+        <meta name="contact" content="https://mattmcelwee.com/links#contact">
+        <meta name="author" content="{{params.author}}">
+        <meta name="citation_author" content="{{params.author}}">
+        <link rel="index" title="Matt McElwee" href="https://mattmcelwee.com/">
+        {{! Social }}
+        <meta name="twitter:creator" content="renddslow">
+        <meta name="twitter:site" content="mattmcelwee.com">
+        <meta name="og:site" content="mattmcelwee.com">
+        <meta name="og:type" content="article">
+        {{! Description }}
+        {{#if params.summary}}
+        <meta name="description" content="{{params.summary}}">
+        <meta name="og:description" content="{{params.summary}}">
+        <meta property="twitter:description" content="{{params.summary}}">
+        {{/if}}
+        {{! Image }}
+        <meta property="og:image" content="https://mattmcelwee.com{{thumbnail}}">
+        <meta property="og:image:alt" content="{{thumbailAlt}}">
+        <meta property="twitter:image" content="https://mattmcelwee.com{{thumbnail}}">
+        {{! Dates }}
+        <meta name="dc.date.issued" content="">
+        <meta name="citation_publication_date" content="">
+        <meta name="dcterms.modified" content="{{lastTended.when}}">
+        <link rel="schema.dcterms" href="https://dublincore.org/specifications/dublin-core/dcmi-terms/">
+        {{! Rights }}
+        <meta name="dcterms.rights" content="CC PD-0">
+        <meta name="dc.rights" content="https://creativecommons.org/publicdomain/zero/1.0/">
+        {{! Links }}
+        <link rel="canonical" href="https://mattmcelwee.com/links{{relPermalink}}">
+        <meta name="citation_fulltext_html_url" content="https://mattmcelwee.com{{relPermalink}}">
+        <meta property="twitter:url" content="https://mattmcelwee.com{{relPermalink}}">
+        <meta property="og:url" content="https://mattmcelwee.com{{relPermalink}}">
+        {{! Misc }}
+        <meta name="keywords" content="{{tagsStr}}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="color-scheme" content="light dark">
+    </head>
+    <body>
+        <main>
+            <nav></nav>
+            <header>
+                <h1>{{title}}</h1>
+            </header>
+            <article>
+                {{! TODO page meta knowledge }}
+                {{! TODO page last tended }}
+                {{{content}}}
+                {{! TODO backlinks }}
+                {{! TODO external links }}
+            </article>
+            <footer></footer>
+        </main>
+    </body>
+</html>
