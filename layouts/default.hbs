@@ -9,7 +9,7 @@
         <meta name="og:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
         <meta name="twitter:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
         {{! Creator }}
-        <meta name="generator" content="https://github.com/Renddslow/mattmcelwee.com/">
+        <meta name="generator" content="https://github.com/Renddslow/mattmcelwee.com/build">
         <meta name="creator" content="mattmcelwee.com">
         <meta name="contact" content="https://mattmcelwee.com/links#contact">
         <meta name="author" content="{{params.author}}">
@@ -28,12 +28,12 @@
         {{/if}}
         {{! Image }}
         <meta property="og:image" content="https://mattmcelwee.com{{thumbnail}}">
-        <meta property="og:image:alt" content="{{thumbailAlt}}">
+        <meta property="og:image:alt" content="{{thumbnailAlt}}">
         <meta property="twitter:image" content="https://mattmcelwee.com{{thumbnail}}">
         {{! Dates }}
-        <meta name="dc.date.issued" content="">
-        <meta name="citation_publication_date" content="">
-        <meta name="dcterms.modified" content="{{lastTended.when}}">
+        <meta name="dc.date.issued" content="{{params.created}}">
+        <meta name="citation_publication_date" content="{{params.created}}">
+        <meta name="dcterms.modified" content="{{params.lastTended.when}}">
         <link rel="schema.dcterms" href="https://dublincore.org/specifications/dublin-core/dcmi-terms/">
         {{! Rights }}
         <meta name="dcterms.rights" content="CC PD-0">

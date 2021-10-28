@@ -7,6 +7,7 @@ import * as handlebars from 'handlebars';
 
 import diff from './diff.js';
 import processFile from './processFile.js';
+import createPath from './createPath.js';
 
 const noDiff = process.argv.includes('--no-diff');
 
@@ -18,7 +19,7 @@ const noDiff = process.argv.includes('--no-diff');
     !noDiff && diffedFiles && diffedFiles.length ? diffedFiles : await globby('content/**/*')
   ).map((p) => ({
     filepath: p,
-    name: '',
+    name: path.basename(p, '.md'),
     rawContent: fs.readFileSync(path.join(process.cwd(), p)).toString(),
   }));
 
@@ -29,21 +30,33 @@ const noDiff = process.argv.includes('--no-diff');
   const filesToRender = await Promise.all(
     filesToProcess.map(async (f) => {
       const { content, ...params } = await processFile(f);
+      const author = get(params, 'lastTended.by') || params.originalAuthor || 'Matt McElwee';
       return {
         ...f,
         content,
+        relPermalink: createPath(f.filepath),
         title: params.title,
         tagsStr: (params.tags || []).join(', '),
+        thumbnailAlt: `Pre-generated thumbnail for the essay with the title "${params.title}" in bold face font.`,
         params: {
           ...params,
-          author: get(params, 'lastTended.by') || params.originalAuthor || 'Matt McElwee',
+          author,
           content,
         },
       };
     }),
   );
 
+  // 1. Process files ✅
+  // 2. Get url
+  // 3. Make directory for URL
+  // 4. Place file
+  // 5. Scan + Compare content/ with public/
+  // 6. Scan + Compare static/ with public/
+  // 7. Remove excess files from public/
+
   filesToRender.forEach((f) => {
-    console.log(template(f));
+    const html = template(f);
+    console.log(html);
   });
 })();

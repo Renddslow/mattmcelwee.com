@@ -11,7 +11,8 @@ metaKnowledge:
   preRequisites: ''
 lastTended:
   by: Matt McElwee
-  when: 2021-10-27
+  when: 2021-10-28
+created: 2021-10-27T00:00:00.000Z
 ---
 
 One of the biggest challenges of building a personal website, especially one which you wish to mean something, is that you run the risk of adhering to the static methods of publishing post-[Gutenberg](!W).
