@@ -5,33 +5,27 @@ import { globby } from 'globby';
 import { get } from 'dot-prop';
 import * as handlebars from 'handlebars';
 import marked from 'marked';
+import mkdir from 'make-dir';
 
-import diff from './diff.js';
 import processFile from './processFile.js';
 import createPath from './createPath.js';
 import getDataObject from './getDataObject.js';
-
-const noDiff = process.argv.includes('--no-diff');
+import createPublishPathFromPermalink from './createPublishPathFromPermalink.js';
 
 handlebars.default.registerHelper('eq', (a, b) => a === b);
 handlebars.default.registerHelper('neq', (a, b) => a !== b);
 handlebars.default.registerHelper('markdownify', (a) => marked(a));
 handlebars.default.registerHelper('get', (o, k) => get(o, k));
 handlebars.default.registerHelper('call', (cb, ...args) => {
-  console.log(cb, args);
   return cb(...args);
 });
 handlebars.default.registerHelper('linkify', (page) => {
-  console.log(page);
   return `<a href="${page.relPermalink}">${page.title}</a>`;
 });
 
 (async () => {
   const data = await getDataObject();
-  const diffedFiles = diff();
-  const filesToProcess = (
-    !noDiff && diffedFiles && diffedFiles.length ? diffedFiles : await globby('content/**/*')
-  ).map((p) => ({
+  const filesToProcess = (await globby('content/**/*')).map((p) => ({
     filepath: p,
     name: path.basename(p, '.md'),
     rawContent: fs.readFileSync(path.join(process.cwd(), p)).toString(),
@@ -66,25 +60,27 @@ handlebars.default.registerHelper('linkify', (page) => {
   );
 
   // 1. Process files ✅
-  // 2. Get url
-  // 3. Make directory for URL
-  // 4. Place file
-  // 5. Scan + Compare content/ with public/
-  // 6. Scan + Compare static/ with public/
-  // 7. Remove excess files from public/
+  // 2. Get url ✅
+  // 3. Make directory for URL ✅
+  // 4. Place file ✅
+  // 5. File caching
 
   const getPage = (permalink) => {
     const page = filesToRender.find(({ relPermalink }) => relPermalink === permalink);
     return page || {};
   };
 
-  filesToRender.forEach((f) => {
-    const html = template({
-      ...f,
-      $: {
-        getPage,
-      },
-    });
-    console.log(html);
-  });
+  await Promise.all(
+    filesToRender.map(async (f) => {
+      const html = template({
+        ...f,
+        $: {
+          getPage,
+        },
+      });
+      const filepath = createPublishPathFromPermalink(f.relPermalink);
+      await mkdir(path.dirname(filepath));
+      fs.writeFileSync(path.join(process.cwd(), filepath), html);
+    }),
+  );
 })();
