@@ -57,7 +57,7 @@
             </header>
             <article>
                 <div class="tending">
-                    <p><span role="img" aria-label="A male farmer">👨‍🌾</span>&nbsp;&nbsp;&nbsp;&nbsp;Originally started {{params.created}}{{#if (neq params.lastTended.when params.created)}} and last tended {{params.lastTended.when}}{{/if}} by {{params.author}}.</p>
+                    <p><span role="img" aria-label="A male farmer">👨‍🌾</span>&nbsp;&nbsp;&nbsp;&nbsp;Originally started {{params.created}}{{#if (neq params.lastTended.when params.created)}} and last tended {{params.lastTended.when}}{{/if}} by {{params.author}}. (<a href="https://github.com/Renddslow/mattmcelwee.com/commits/main/{{filepath}}">See Revision History</a>).</p>
                 </div>
                 <div class="meta-knowledge">
                     <ul>
@@ -94,7 +94,16 @@
                     </ul>
                 </div>
                 {{{content}}}
-                {{! TODO backlinks }}
+                {{#if (get site.data.backlinks relPermalink)}}
+                <div class="backlinks">
+                    <h2>Pages Linking to this Page</h2>
+                    <ul>
+                    {{#each (get site.data.backlinks relPermalink)}}
+                        <li>{{{linkify (call ../$.getPage this)}}}</li>
+                    {{/each}}
+                    </ul>
+                </div>
+                {{/if}}
                 {{! TODO external links }}
             </article>
             <footer></footer>

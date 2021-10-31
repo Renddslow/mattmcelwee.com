@@ -16,6 +16,15 @@ const noDiff = process.argv.includes('--no-diff');
 handlebars.default.registerHelper('eq', (a, b) => a === b);
 handlebars.default.registerHelper('neq', (a, b) => a !== b);
 handlebars.default.registerHelper('markdownify', (a) => marked(a));
+handlebars.default.registerHelper('get', (o, k) => get(o, k));
+handlebars.default.registerHelper('call', (cb, ...args) => {
+  console.log(cb, args);
+  return cb(...args);
+});
+handlebars.default.registerHelper('linkify', (page) => {
+  console.log(page);
+  return `<a href="${page.relPermalink}">${page.title}</a>`;
+});
 
 (async () => {
   const data = await getDataObject();
@@ -38,7 +47,9 @@ handlebars.default.registerHelper('markdownify', (a) => marked(a));
       const author = get(params, 'lastTended.by') || params.originalAuthor || 'Matt McElwee';
       return {
         ...f,
-        data,
+        site: {
+          data,
+        },
         content,
         isHome: f.filepath === 'content/_index.md',
         relPermalink: createPath(f.filepath),
@@ -62,8 +73,18 @@ handlebars.default.registerHelper('markdownify', (a) => marked(a));
   // 6. Scan + Compare static/ with public/
   // 7. Remove excess files from public/
 
+  const getPage = (permalink) => {
+    const page = filesToRender.find(({ relPermalink }) => relPermalink === permalink);
+    return page || {};
+  };
+
   filesToRender.forEach((f) => {
-    const html = template(f);
+    const html = template({
+      ...f,
+      $: {
+        getPage,
+      },
+    });
     console.log(html);
   });
 })();
