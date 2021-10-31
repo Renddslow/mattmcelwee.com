@@ -4,16 +4,21 @@ import path from 'path';
 import { globby } from 'globby';
 import { get } from 'dot-prop';
 import * as handlebars from 'handlebars';
+import marked from 'marked';
 
 import diff from './diff.js';
 import processFile from './processFile.js';
 import createPath from './createPath.js';
+import getDataObject from './getDataObject.js';
 
 const noDiff = process.argv.includes('--no-diff');
 
-// TODO: "atomic" builds
+handlebars.default.registerHelper('eq', (a, b) => a === b);
+handlebars.default.registerHelper('neq', (a, b) => a !== b);
+handlebars.default.registerHelper('markdownify', (a) => marked(a));
+
 (async () => {
-  // TODO: read data/ into memory
+  const data = await getDataObject();
   const diffedFiles = diff();
   const filesToProcess = (
     !noDiff && diffedFiles && diffedFiles.length ? diffedFiles : await globby('content/**/*')
@@ -33,7 +38,9 @@ const noDiff = process.argv.includes('--no-diff');
       const author = get(params, 'lastTended.by') || params.originalAuthor || 'Matt McElwee';
       return {
         ...f,
+        data,
         content,
+        isHome: f.filepath === 'content/_index.md',
         relPermalink: createPath(f.filepath),
         title: params.title,
         tagsStr: (params.tags || []).join(', '),

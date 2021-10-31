@@ -6,8 +6,8 @@
         <title>{{#if isHome}}Matt McElwee{{else}}{{title}} • Matt McElwee{{/if}}</title>
         <meta name="title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
         <meta name="citation_title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
-        <meta name="og:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
-        <meta name="twitter:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}}{{/if}}">
+        <meta name="og:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}} • Matt McElwee{{/if}}">
+        <meta name="twitter:title" content="{{#if isHome}}Matt McElwee{{else}}{{title}} • Matt McElwee{{/if}}">
         {{! Creator }}
         <meta name="generator" content="https://github.com/Renddslow/mattmcelwee.com/build">
         <meta name="creator" content="mattmcelwee.com">
@@ -36,6 +36,7 @@
         <meta name="dcterms.modified" content="{{params.lastTended.when}}">
         <link rel="schema.dcterms" href="https://dublincore.org/specifications/dublin-core/dcmi-terms/">
         {{! Rights }}
+        {{! TODO: review rights }}
         <meta name="dcterms.rights" content="CC PD-0">
         <meta name="dc.rights" content="https://creativecommons.org/publicdomain/zero/1.0/">
         {{! Links }}
@@ -55,8 +56,43 @@
                 <h1>{{title}}</h1>
             </header>
             <article>
-                {{! TODO page meta knowledge }}
-                {{! TODO page last tended }}
+                <div class="tending">
+                    <p><span role="img" aria-label="A male farmer">👨‍🌾</span>&nbsp;&nbsp;&nbsp;&nbsp;Originally started {{params.created}}{{#if (neq params.lastTended.when params.created)}} and last tended {{params.lastTended.when}}{{/if}} by {{params.author}}.</p>
+                </div>
+                <div class="meta-knowledge">
+                    <ul>
+                        {{#if params.metaKnowledge.accuracy}}
+                        <li>
+                            <span class="name"><a href="/site#accuracy">Accuracy:</a></span>
+                            {{{markdownify params.metaKnowledge.accuracy}}}
+                        </li>
+                        {{/if}}
+                        {{#if params.metaKnowledge.certainty}}
+                        <li>
+                            <span class="name"><a href="/site#certainty">Certainty:</a></span>
+                            {{{markdownify params.metaKnowledge.certainty}}}
+                        </li>
+                        {{/if}}
+                        {{#if params.metaKnowledge.completeness}}
+                        <li>
+                            <span class="name"><a href="/site#completeness">Completeness:</a></span>
+                            {{{markdownify params.metaKnowledge.completeness}}}
+                        </li>
+                        {{/if}}
+                        {{#if params.metaKnowledge.effort}}
+                        <li>
+                            <span class="name"><a href="/site#mental-effort">Mental Effort:</a></span>
+                            {{{markdownify params.metaKnowledge.effort}}}
+                        </li>
+                        {{/if}}
+                        {{#if params.metaKnowledge.preRequisites}}
+                        <li>
+                            <span class="name"><a href="/site#pre-requisites">Pre-Requisites:</a></span>
+                            {{{markdownify params.metaKnowledge.preRequisites}}}
+                        </li>
+                        {{/if}}
+                    </ul>
+                </div>
                 {{{content}}}
                 {{! TODO backlinks }}
                 {{! TODO external links }}
