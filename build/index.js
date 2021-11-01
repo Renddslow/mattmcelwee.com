@@ -6,11 +6,13 @@ import { get } from 'dot-prop';
 import * as handlebars from 'handlebars';
 import marked from 'marked';
 import mkdir from 'make-dir';
+import { format } from 'date-fns';
 
 import processFile from './processFile.js';
 import createPath from './createPath.js';
 import getDataObject from './getDataObject.js';
 import createPublishPathFromPermalink from './createPublishPathFromPermalink.js';
+import compileInlineStyles from './compileInlineStyles.js';
 
 handlebars.default.registerHelper('eq', (a, b) => a === b);
 handlebars.default.registerHelper('neq', (a, b) => a !== b);
@@ -21,6 +23,10 @@ handlebars.default.registerHelper('call', (cb, ...args) => {
 });
 handlebars.default.registerHelper('linkify', (page) => {
   return `<a href="${page.relPermalink}">${page.title}</a>`;
+});
+handlebars.default.registerHelper('format', (str, fmt) => {
+  const d = new Date(str);
+  return format(d, fmt);
 });
 
 (async () => {
@@ -35,6 +41,14 @@ handlebars.default.registerHelper('linkify', (page) => {
     fs.readFileSync(path.join(process.cwd(), 'layouts', 'default.hbs')).toString(),
   );
 
+  const inlineCSS = await compileInlineStyles();
+  /** TODO: compile linked styles
+   *  - glob sass/ ** /main.scss
+   *  - filter out `inline`
+   *  - create *.css files with the originating dirname as the filename
+   *  - create links
+   */
+
   const filesToRender = await Promise.all(
     filesToProcess.map(async (f) => {
       const { content, ...params } = await processFile(f);
@@ -44,6 +58,7 @@ handlebars.default.registerHelper('linkify', (page) => {
         site: {
           data,
         },
+        inlineCSS,
         content,
         isHome: f.filepath === 'content/_index.md',
         relPermalink: createPath(f.filepath),
@@ -59,11 +74,7 @@ handlebars.default.registerHelper('linkify', (page) => {
     }),
   );
 
-  // 1. Process files ✅
-  // 2. Get url ✅
-  // 3. Make directory for URL ✅
-  // 4. Place file ✅
-  // 5. File caching
+  // TODO - #1: figure out caching + incremental builds
 
   const getPage = (permalink) => {
     const page = filesToRender.find(({ relPermalink }) => relPermalink === permalink);

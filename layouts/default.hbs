@@ -31,9 +31,9 @@
         <meta property="og:image:alt" content="{{thumbnailAlt}}">
         <meta property="twitter:image" content="https://mattmcelwee.com{{thumbnail}}">
         {{! Dates }}
-        <meta name="dc.date.issued" content="{{params.created}}">
-        <meta name="citation_publication_date" content="{{params.created}}">
-        <meta name="dcterms.modified" content="{{params.lastTended.when}}">
+        <meta name="dc.date.issued" content="{{format params.created "yyyy-MM-dd"}}">
+        <meta name="citation_publication_date" content="{{format params.created "yyyy/MM/dd"}}">
+        <meta name="dcterms.modified" content="{{format params.lastTended.when "yyyy-MM-dd"}}">
         <link rel="schema.dcterms" href="https://dublincore.org/specifications/dublin-core/dcmi-terms/">
         {{! Rights }}
         {{! TODO: review rights }}
@@ -48,6 +48,7 @@
         <meta name="keywords" content="{{tagsStr}}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="light dark">
+        {{{inlineCSS}}}
     </head>
     <body>
         <main>
@@ -56,43 +57,47 @@
                 <h1>{{title}}</h1>
             </header>
             <article>
+                {{#if isHome}}{{else}}
                 <div class="tending">
-                    <p><span role="img" aria-label="A male farmer">👨‍🌾</span>&nbsp;&nbsp;&nbsp;&nbsp;Originally started {{params.created}}{{#if (neq params.lastTended.when params.created)}} and last tended {{params.lastTended.when}}{{/if}} by {{params.author}}. (<a href="https://github.com/Renddslow/mattmcelwee.com/commits/main/{{filepath}}">See Revision History</a>).</p>
+                    <p><span role="img" aria-label="A male farmer">👨‍🌾</span>&nbsp;&nbsp;&nbsp;&nbsp;Originally started {{format params.created "MMMM d, yyyy"}}{{#if (neq params.lastTended.when params.created)}} and last tended {{format params.lastTended.when "MMMM d, yyyy"}}{{/if}} by {{params.author}}. (<a href="https://github.com/Renddslow/mattmcelwee.com/commits/main/{{filepath}}">See Revision History</a>).</p>
                 </div>
+                {{#with params.metaKnowledge}}
                 <div class="meta-knowledge">
                     <ul>
-                        {{#if params.metaKnowledge.accuracy}}
+                        {{#if accuracy}}
                         <li>
                             <span class="name"><a href="/site#accuracy">Accuracy:</a></span>
-                            {{{markdownify params.metaKnowledge.accuracy}}}
+                            {{{markdownify accuracy}}}
                         </li>
                         {{/if}}
-                        {{#if params.metaKnowledge.certainty}}
+                        {{#if certainty}}
                         <li>
                             <span class="name"><a href="/site#certainty">Certainty:</a></span>
-                            {{{markdownify params.metaKnowledge.certainty}}}
+                            {{{markdownify certainty}}}
                         </li>
                         {{/if}}
-                        {{#if params.metaKnowledge.completeness}}
+                        {{#if completeness}}
                         <li>
                             <span class="name"><a href="/site#completeness">Completeness:</a></span>
-                            {{{markdownify params.metaKnowledge.completeness}}}
+                            {{{markdownify completeness}}}
                         </li>
                         {{/if}}
-                        {{#if params.metaKnowledge.effort}}
+                        {{#if effort}}
                         <li>
                             <span class="name"><a href="/site#mental-effort">Mental Effort:</a></span>
-                            {{{markdownify params.metaKnowledge.effort}}}
+                            {{{markdownify effort}}}
                         </li>
                         {{/if}}
-                        {{#if params.metaKnowledge.preRequisites}}
+                        {{#if preRequisites}}
                         <li>
                             <span class="name"><a href="/site#pre-requisites">Pre-Requisites:</a></span>
-                            {{{markdownify params.metaKnowledge.preRequisites}}}
+                            {{{markdownify preRequisites}}}
                         </li>
                         {{/if}}
                     </ul>
                 </div>
+                {{/with}}
+                {{/if}}
                 {{{content}}}
                 {{#if (get site.data.backlinks relPermalink)}}
                 <div class="backlinks">
@@ -107,6 +112,7 @@
                 {{! TODO external links }}
             </article>
             <footer></footer>
+            {{{linkedCSS}}}
         </main>
     </body>
 </html>
