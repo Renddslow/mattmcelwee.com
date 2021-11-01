@@ -3,3 +3,41 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+@import "fonts";
+@import "colors";
+
+html {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-serif);
+  background-color: var(--body-bg-color);
+  color: var(--body-text-color);
+  font-variant-numeric: oldstyle-nums;
+}
+
+main {
+  width: 100%;
+  max-width: 810px;
+  padding: 24px;
+}
+
+a {
+  color: var(--body-internal-link-color);
+  text-decoration: none;
+
+  &:visited {
+    color: var(----body-internal-link-visited-color);
+  }
+}
+
+a[href*="//"]:not([href*="//mattmcelwee.com"]) {
+  color: var(--body-external-link-color);
+
+  &:visited {
+    color: var(--body-external-link-visited-color);
+  }
+}
+
+@import "meta";
+@import "markdown";

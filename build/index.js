@@ -7,12 +7,15 @@ import * as handlebars from 'handlebars';
 import marked from 'marked';
 import mkdir from 'make-dir';
 import { format } from 'date-fns';
+import cpy from 'cpy';
 
 import processFile from './processFile.js';
 import createPath from './createPath.js';
 import getDataObject from './getDataObject.js';
 import createPublishPathFromPermalink from './createPublishPathFromPermalink.js';
 import compileInlineStyles from './compileInlineStyles.js';
+
+const TAB = '    ';
 
 handlebars.default.registerHelper('eq', (a, b) => a === b);
 handlebars.default.registerHelper('neq', (a, b) => a !== b);
@@ -94,4 +97,10 @@ handlebars.default.registerHelper('format', (str, fmt) => {
       fs.writeFileSync(path.join(process.cwd(), filepath), html);
     }),
   );
+
+  console.log(TAB + `Copying files from static/ to public/`);
+  await cpy('**/*', '../public', {
+    parents: true,
+    cwd: path.join(process.cwd(), 'static'),
+  });
 })();

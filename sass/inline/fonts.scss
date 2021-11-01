@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 200;
+  font-style: normal;
+  src: url('/font/ssfp/SourceSerifPro-BASIC-ExtraLight.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+2010, U+2013-2014, U+2018-2019, U+201C-201D;
+  /*  for body text, display as soon as possible (presumably as system font Baskerville)
+      and re-render with Source Serif Pro whenever it downloads:
+      https://developers.google.com/web/updates/2016/02/font-display
+      https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
+      https://caniuse.com/#search=font-display
+      */
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 200;
+  font-style: italic;
+  src: url('/font/SourceSerifPro-ExtraLightItalic.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 300;
+  font-style: normal;
+  src: url('/font/SourceSerifPro-Light.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 300;
+  font-style: italic;
+  src: url('/font/SourceSerifPro-LightItalic.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  font-style: normal;
+  src: url('/font/SourceSerifPro-Regular.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  font-style: italic;
+  src: url('/font/SourceSerifPro-RegularItalic.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 600;
+  font-style: normal;
+  src: url('/font/SourceSerifPro-Semibold.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 600;
+  font-style: italic;
+  src: url('/font/SourceSerifPro-SemiboldItalic.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 700;
+  font-style: normal;
+  src: url('/font/SourceSerifPro-Bold.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 700;
+  font-style: italic;
+  src: url('/font/SourceSerifPro-BoldItalic.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  src: url('/font/SourceSerifPro-Black.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: italic;
+  src: url('/font/SourceSerifPro-BlackItalic.ttf') format('truetype');
+  unicode-range: U+0020-007E, U+00A0-00FF, U+2010, U+2013-2014, U+2018-2019, U+201C-201D, U+2212;
+  font-display: swap;
+}
+
+
+:root {
+  --font-serif: "Source Serif Pro", "Times New Roman", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times", serif;
+  --font-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+

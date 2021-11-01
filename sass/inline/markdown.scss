@@ -1,0 +1,91 @@
+.markdown {
+  overflow-wrap: break-word;
+
+  p, li {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .abstract + p::first-line,
+  p:first-of-type::first-line {
+    font-feature-settings: 'smcp';
+  }
+}
+
+h1 {
+  margin: 0.6em 0 0.5em 0;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+
+@media only screen and (max-width: 649px) {
+  h1 {
+    margin: 1.25em 0 0.5em 0;
+    padding-bottom: 2px;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  @media only screen and (max-width: 1000px) {
+    .markdown {
+      line-height: 1.50;
+    }
+  }
+  @media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .markdown {
+      line-height: 1.55;
+    }
+  }
+  @media only screen and (min-width: 1201px) {
+    .markdown {
+      line-height: 1.60;
+    }
+  }
+}
+
+.abstract {
+  & > blockquote {
+    margin: 0 0 1.5em 0;
+    background-color: #999; // TODO
+    border-color: #999; // TODO
+    padding: 0.9rem 1.25rem 0.95rem 1.25rem;
+    clear: none;
+  }
+}
+
+.markdown h2 {
+  font-feature-settings: 'smcp';
+  font-size: 1.75em;
+  line-height: 1.25;
+  letter-spacing: -0.75px;
+}
+
+@media only screen and (max-width: 1760px) {
+  #sidenote-column-left,
+  #sidenote-column-right {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1761px) {
+  .marginnote {
+    display: none;
+  }
+}
+
+.markdown a,
+footer a,
+.meta-knowledge a {
+  text-decoration: none;
+  background-image: linear-gradient(#000 /* TODO */, #000 /* TODO */);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0 calc(100% - 0.1em);
+  box-decoration-break: clone;
+
+  /*  Disable oldstyle nums in underlined links because the oldstyle nums are almost subscript-like and overlap */
+  font-variant-numeric: lining-nums;
+}

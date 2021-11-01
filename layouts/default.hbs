@@ -59,7 +59,7 @@
             <article>
                 {{#if isHome}}{{else}}
                 <div class="tending">
-                    <p><span role="img" aria-label="A male farmer">👨‍🌾</span>&nbsp;&nbsp;&nbsp;&nbsp;Originally started {{format params.created "MMMM d, yyyy"}}{{#if (neq params.lastTended.when params.created)}} and last tended {{format params.lastTended.when "MMMM d, yyyy"}}{{/if}} by {{params.author}}. (<a href="https://github.com/Renddslow/mattmcelwee.com/commits/main/{{filepath}}">See Revision History</a>).</p>
+                    <p>Originally drafted {{format params.created "MMMM d, yyyy"}}{{#if (neq params.lastTended.when params.created)}} and last tended {{format params.lastTended.when "MMMM d, yyyy"}}{{/if}} by {{params.author}}. <br/>(<a href="https://github.com/Renddslow/mattmcelwee.com/commits/main/{{filepath}}">See Revision History</a>).</p>
                 </div>
                 {{#with params.metaKnowledge}}
                 <div class="meta-knowledge">
@@ -98,7 +98,9 @@
                 </div>
                 {{/with}}
                 {{/if}}
+                <div class="markdown">
                 {{{content}}}
+                </div>
                 {{#if (get site.data.backlinks relPermalink)}}
                 <div class="backlinks">
                     <h2>Pages Linking to this Page</h2>
