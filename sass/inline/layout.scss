@@ -1,3 +1,13 @@
 main {
   display: grid;
+  max-width: 960px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  grid-template-columns: minmax(0, 120px) minmax(0, 1fr);
+  grid-gap: 24px;
+}
+
+nav {
+
 }

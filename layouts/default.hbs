@@ -52,11 +52,19 @@
     </head>
     <body>
         <main>
-            <nav></nav>
-            <header>
-                <h1>{{title}}</h1>
-            </header>
+            <nav>
+                <a href="/">Matt McElwee</a>
+                <ul>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/site">Site</a></li>
+                    <li><a href="/changelog">Changes</a></li>
+                    <li><a href="/random">Random</a></li>
+                </ul>
+            </nav>
             <article>
+                <header>
+                    <h1>{{title}}</h1>
+                </header>
                 {{#if isHome}}{{else}}
                 <div class="tending">
                     <p>Originally drafted {{format params.created "MMMM d, yyyy"}}{{#if (neq params.lastTended.when params.created)}} and last tended {{format params.lastTended.when "MMMM d, yyyy"}}{{/if}} by {{params.author}}. <br/>(<a href="https://github.com/Renddslow/mattmcelwee.com/commits/main/{{filepath}}">See Revision History</a>).</p>
