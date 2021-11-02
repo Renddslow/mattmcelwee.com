@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-@import "fonts";
-@import "colors";
+@import 'fonts';
+@import 'colors';
 
 html {
   font-size: 20px;
@@ -27,11 +27,12 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: var(----body-internal-link-visited-color);
+    color: var(--body-internal-link-visited-color);
   }
 }
 
-a[href*="//"]:not([href*="//mattmcelwee.com"]) {
+a[href*="//"]:not([href*="//mattmcelwee.com"])
+{
   color: var(--body-external-link-color);
 
   &:visited {
@@ -39,6 +40,12 @@ a[href*="//"]:not([href*="//mattmcelwee.com"]) {
   }
 }
 
-@import "layout";
-@import "meta";
-@import "markdown";
+::selection {
+  text-shadow: none;
+  background: var(--body-selection-bg-color);
+  color: var(--body-selection-text-color);
+}
+
+@import 'layout';
+@import 'meta';
+@import 'markdown';

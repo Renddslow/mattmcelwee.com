@@ -9,5 +9,23 @@ main {
 }
 
 nav {
+  padding-top: 12px;
 
+  ul {
+    list-style: none;
+  }
+
+  a,
+  & > a {
+    color: var(--body-text-color);
+  }
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+#logo {
+  font-size: 48px;
+  display: block;
 }
