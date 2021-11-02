@@ -1,8 +1,17 @@
 .meta-knowledge {
+  ul {
+    list-style: none;
+  }
+
   li {
     display: grid;
     grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
     grid-gap: 8px;
+    font-size: .85rem;
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
   }
 
   .name a {

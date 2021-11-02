@@ -80,7 +80,7 @@ h1 {
 footer a,
 .meta-knowledge a {
   text-decoration: none;
-  background-image: linear-gradient(#000 /* TODO */, #000 /* TODO */);
+  background-image: linear-gradient(var(--link-gradient-color), var(--link-gradient-color));
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0 calc(100% - 0.1em);
@@ -88,4 +88,17 @@ footer a,
 
   /*  Disable oldstyle nums in underlined links because the oldstyle nums are almost subscript-like and overlap */
   font-variant-numeric: lining-nums;
+}
+
+.markdown a,
+footer a,
+.meta-knowledge a {
+  text-shadow:
+          0      0.05em  var(--link-underline-color),
+          0.05em 0.05em  var(--link-underline-color),
+          -0.05em 0.05em  var(--link-underline-color),
+          0.17em 0.05em  var(--link-underline-color),
+          -0.17em 0.05em  var(--link-underline-color),
+          0.17em 0       var(--link-underline-color),
+          -0.17em 0       var(--link-underline-color);
 }
