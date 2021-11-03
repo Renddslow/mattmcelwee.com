@@ -1,18 +1,39 @@
 main {
   display: grid;
-  max-width: 960px;
+  padding: 24px;
+  max-width: 810px;
   width: 100%;
   position: relative;
   margin: 0 auto;
-  grid-template-columns: minmax(0, 120px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   grid-gap: 24px;
 }
 
+header {
+  width: 100%;
+}
+
 nav {
-  padding-top: 12px;
+  display: grid;
+  grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
+  align-items: center;
+  grid-gap: 24px;
 
   ul {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    grid-gap: 12px;
+    justify-content: start;
+    width: max-content;
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: repeat(2, max-content);
+
+      a {
+        padding: 12px;
+      }
+    }
   }
 
   a,
@@ -26,6 +47,7 @@ header h1 {
 }
 
 #logo {
-  font-size: 48px;
+  font-size: 24px;
   display: block;
+  user-select: none;
 }

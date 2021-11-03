@@ -4,13 +4,15 @@
   }
 
   li {
-    display: grid;
-    grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
-    grid-gap: 8px;
-    font-size: .85rem;
+    font-size: 0.85rem;
 
     &:not(:last-child) {
       margin-bottom: 12px;
+    }
+
+    // Marked outputs a `p` wrapper for this content
+    p {
+      display: inline;
     }
   }
 
