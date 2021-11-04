@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import handlebars from 'handlebars';
 import titleize from 'titleize';
+import makeDir from 'make-dir';
 
 const tryFile = (p) => {
   try {
@@ -52,6 +53,7 @@ const tryFiles = (paths) => {
       date: new Date().toISOString().split('T')[0],
     });
 
+    makeDir.sync(path.join(process.cwd(), 'content', dir));
     fs.writeFileSync(path.join(process.cwd(), 'content', p), md);
   });
 })();
