@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Changelog
 originalAuthor: Matt McElwee
 metaKnowledge:
   accuracy: ''
