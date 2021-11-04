@@ -34,6 +34,7 @@
     "remark-parse": "^10.0.0",
     "rimraf": "^3.0.2",
     "slugify": "^1.6.1",
+    "titleize": "^3.0.0",
     "ts-node": "^10.3.0",
     "unified": "^10.1.0",
     "unist-util-visit": "^4.1.0",
@@ -50,7 +51,8 @@
     "prepare": "husky install",
     "backlink": "mcgregor plant data/backlinks.json",
     "husky": "husky",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "new": "node scripts/new.js"
   },
   "lint-staged": {
     "*.{js,css,json,md,scss}": [
