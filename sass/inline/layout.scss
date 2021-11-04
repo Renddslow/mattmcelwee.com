@@ -1,7 +1,7 @@
 main {
   display: grid;
   padding: 24px;
-  max-width: 810px;
+  max-width: 768px;
   width: 100%;
   position: relative;
   margin: 0 auto;
@@ -37,8 +37,14 @@ nav {
   }
 
   a,
-  & > a {
+  & > a,
+  a:visited,
+  & > a:visited {
     color: var(--body-text-color);
+  }
+
+  a.active {
+    color: var(--body-internal-link-color);
   }
 }
 

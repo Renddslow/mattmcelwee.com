@@ -1,0 +1,15 @@
+p {
+  margin: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+p + p {
+  text-indent: 2.5em;
+}
+@media only screen and (max-width: 649px) {
+  p + p {
+    text-indent: 1em;
+  }
+}
