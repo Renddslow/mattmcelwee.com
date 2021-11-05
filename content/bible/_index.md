@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Bible
 originalAuthor: Matt McElwee
 metaKnowledge:
   accuracy: ''
@@ -10,5 +10,5 @@ metaKnowledge:
 created: 2021-11-04T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2021-11-04
+  when: 2021-11-05
 ---

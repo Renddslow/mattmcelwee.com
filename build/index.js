@@ -14,6 +14,7 @@ import createPath from './createPath.js';
 import getDataObject from './getDataObject.js';
 import createPublishPathFromPermalink from './createPublishPathFromPermalink.js';
 import compileInlineStyles from './compileInlineStyles.js';
+import createIndexPage from './createIndexPage.js';
 
 const TAB = '    ';
 
@@ -64,6 +65,10 @@ handlebars.default.registerHelper('format', (str, fmt) => {
         inlineCSS,
         content,
         isHome: f.filepath === 'content/_index.md',
+        isDirectory: f.filepath.includes('_index.md'),
+        section: f.filepath.includes('_index.md')
+          ? createPath(f.filepath)
+          : path.dirname(createPath(f.filepath)),
         relPermalink: createPath(f.filepath),
         title: params.title,
         tagsStr: (params.tags || []).join(', '),
@@ -86,12 +91,17 @@ handlebars.default.registerHelper('format', (str, fmt) => {
 
   await Promise.all(
     filesToRender.map(async (f) => {
+      if (f.relPermalink === '/') {
+        f.content += createIndexPage(filesToRender);
+      }
+
       const html = template({
         ...f,
         $: {
           getPage,
         },
       });
+
       const filepath = createPublishPathFromPermalink(f.relPermalink);
       await mkdir(path.dirname(filepath));
       fs.writeFileSync(path.join(process.cwd(), filepath), html);
