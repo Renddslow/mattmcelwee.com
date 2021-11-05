@@ -1,0 +1,21 @@
+a[data-footnote-ref] {
+  background: none;
+}
+
+[data-footnote-ref]::before {
+  content: '[';
+}
+
+[data-footnote-ref]::after {
+  content: ']';
+}
+
+.footnotes ol {
+  padding-left: 24px;
+  font-size: 0.8rem;
+  margin-top: 24px;
+}
+
+.footnotes ol li:not(:last-child) {
+  margin-bottom: 12px;
+}

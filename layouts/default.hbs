@@ -68,8 +68,9 @@
             <article>
                 <header>
                     <h1>{{title}}</h1>
+                    {{#if params.summary}}<p><em>{{params.summary}}</em></p>{{/if}}
                 </header>
-                {{#if isHome}}{{else}}
+                {{#if (or isHome isDirectory)}}{{else}}
                 <div class="tending">
                     <p>Originally drafted {{format params.created "MMMM d, yyyy"}}{{#if (neq params.lastTended.when params.created)}} and last tended {{format params.lastTended.when "MMMM d, yyyy"}}{{/if}} by {{params.author}}. <br/>(<a href="https://github.com/Renddslow/mattmcelwee.com/commits/main/{{filepath}}">See Revision History</a>).</p>
                 </div>

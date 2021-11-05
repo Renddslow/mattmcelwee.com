@@ -4,13 +4,14 @@ import { get } from 'dot-prop';
 import WEIGHTS from './weights.js';
 
 const findSectionTitleOrTitleize = (relPermalink, files) => {
-  const sectionIndex = files.find((f) => f.relPermalink === relPermalink);
-  if (sectionIndex)
+  const sectionIndex = files.find((f) => f.relPermalink === `${relPermalink}/`);
+  if (sectionIndex) {
     return {
       title: sectionIndex.title,
       relPermalink,
       children: [],
     };
+  }
   const cleanedSlug = relPermalink.replace(/^\//, '').replace(/\/$/, '').split('/').slice(-1)[0];
   return {
     title: titleize(cleanedSlug.replace(/[-_]/, ' ')),
@@ -52,7 +53,7 @@ const sortByWeight = (list) => {
 };
 
 const createIndexPage = (files) => {
-  const sectionPerms = dedupe(files.map((f) => f.section));
+  const sectionPerms = dedupe(files.map((f) => f.section.replace(/\/$/, '')));
   const sections = [
     ...sectionPerms.filter((s) => s !== '/').map((link) => findSectionTitleOrTitleize(link, files)),
     {

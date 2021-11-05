@@ -1,6 +1,8 @@
 ---
 title: On Pharisaism
 originalAuthor: Matt McElwee
+summary: In this post I outline the problems with a particular label common in
+  Evangelicalism.
 metaKnowledge:
   accuracy: In recent review, I think there are elements of this which are mildly
     reductive with regard to the history and development of Judaism. This also

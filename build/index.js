@@ -22,6 +22,7 @@ handlebars.default.registerHelper('eq', (a, b) => a === b);
 handlebars.default.registerHelper('neq', (a, b) => a !== b);
 handlebars.default.registerHelper('markdownify', (a) => marked(a));
 handlebars.default.registerHelper('get', (o, k) => get(o, k));
+handlebars.default.registerHelper('or', (a, b) => a || b);
 handlebars.default.registerHelper('call', (cb, ...args) => {
   return cb(...args);
 });

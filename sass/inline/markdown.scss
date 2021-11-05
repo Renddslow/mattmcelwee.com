@@ -13,6 +13,10 @@
   p:first-of-type::first-line {
     font-feature-settings: 'smcp';
   }
+
+  .footnotes p:first-of-type::first-line {
+    font-feature-settings: normal;
+  }
 }
 
 h1 {
