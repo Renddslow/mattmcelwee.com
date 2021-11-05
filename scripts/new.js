@@ -45,7 +45,9 @@ const tryFiles = (paths) => {
     const templatePaths = dir === '.' ? ['default.hbs'] : processPathForTries(dir); // process path for tries
     const template = handlebars.default.compile(tryFiles(templatePaths));
 
-    const fileName = path.basename(p, '.md');
+    const fileName = path.basename(p, '.md').includes('_index')
+      ? path.dirname(p).split('/').slice(-1)[0]
+      : path.basename(p, '.md');
     const inferredTitle = titleize(fileName.replace(/[-_]/g, ' '));
 
     const md = template({
