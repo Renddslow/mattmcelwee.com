@@ -33,6 +33,7 @@ handlebars.default.registerHelper('format', (str, fmt) => {
   return format(d, fmt);
 });
 
+// TODO: make fs interaction async
 (async () => {
   const data = await getDataObject();
   const filesToProcess = (await globby('content/**/*')).map((p) => ({
