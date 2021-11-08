@@ -6,10 +6,10 @@ p {
   }
 }
 p + p {
-  text-indent: 2.5em;
+  text-indent: 1em;
 }
 @media only screen and (max-width: 649px) {
   p + p {
-    text-indent: 1em;
+    text-indent: 0.5em;
   }
 }
