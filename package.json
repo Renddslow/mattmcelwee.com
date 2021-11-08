@@ -34,6 +34,7 @@
     "remark-parse": "^10.0.0",
     "rimraf": "^3.0.2",
     "slugify": "^1.6.1",
+    "sort-on": "^4.1.1",
     "titleize": "^3.0.0",
     "ts-node": "^10.3.0",
     "unified": "^10.1.0",

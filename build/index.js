@@ -15,6 +15,7 @@ import getDataObject from './getDataObject.js';
 import createPublishPathFromPermalink from './createPublishPathFromPermalink.js';
 import compileInlineStyles from './compileInlineStyles.js';
 import createIndexPage from './createIndexPage.js';
+import makeBibliography from './makeBibliography.js';
 
 const TAB = '    ';
 
@@ -33,6 +34,14 @@ handlebars.default.registerHelper('format', (str, fmt) => {
   const d = new Date(str);
   return format(d, fmt);
 });
+
+const fnTry = (cb) => {
+  try {
+    return cb();
+  } catch (e) {
+    return 'HANDLEBARS_ERROR';
+  }
+};
 
 // TODO: make fs interaction async
 (async () => {
@@ -99,6 +108,8 @@ handlebars.default.registerHelper('format', (str, fmt) => {
 
       const html = template({
         ...f,
+        content:
+          f.filepath === 'content/readings.md' ? f.content + (await makeBibliography()) : f.content,
         $: {
           getPage,
         },

@@ -37,8 +37,8 @@
         <link rel="schema.dcterms" href="https://dublincore.org/specifications/dublin-core/dcmi-terms/">
         {{! Rights }}
         {{! TODO: review rights }}
-        <meta name="dcterms.rights" content="CC PD-0">
-        <meta name="dc.rights" content="https://creativecommons.org/publicdomain/zero/1.0/">
+        <meta name="dcterms.rights" content="CC BY-NC-SA 2.0">
+        <meta name="dc.rights" content="https://creativecommons.org/licenses/by-nc-sa/2.0/">
         {{! Links }}
         <link rel="canonical" href="https://mattmcelwee.com/links{{relPermalink}}">
         <meta name="citation_fulltext_html_url" content="https://mattmcelwee.com{{relPermalink}}">
@@ -59,7 +59,7 @@
                     </a>
                     <ul>
                         <li><a href="/about" {{#if (eq relPermalink "/about")}}class="active"{{/if}}>About</a></li>
-                        <li><a href="/reading" {{#if (eq relPermalink "/reading")}}class="active"{{/if}}>Reading</a></li>
+                        <li><a href="/readings" {{#if (eq relPermalink "/readings")}}class="active"{{/if}}>Reading</a></li>
                         <li><a href="/contact" {{#if (eq relPermalink "/contact")}}class="active"{{/if}}>Contact</a></li>
                         <li><a href="/changelog" {{#if (eq relPermalink "/changelog")}}class="active"{{/if}}>Changes</a></li>
                     </ul>
@@ -126,8 +126,10 @@
                 {{/if}}
                 {{! TODO external links }}
             </article>
-            <footer></footer>
+            <footer>CC BY-NC-SA 2.0</footer>
             {{{linkedCSS}}}
+            <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+            <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
         </main>
     </body>
 </html>

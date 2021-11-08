@@ -1,0 +1,29 @@
+<div class="bibliography">
+{{#each entries}}
+<div id='{{ id }}' class="citation">
+    <a href="#{{ id }}" class="page-link">#</a>
+    <span title="{{ author }}">{{ authorCitation }}</span>
+    {{#with year }}
+    <span>({{ this }}).</span>
+    {{/with}}
+    <span><em>{{ title }}.</em></span>
+    <span>{{ publisher }}.</span>
+    {{#with content }}
+    <blockquote>{{ this }}</blockquote>
+    {{/with}}
+    {{#with links }}
+    <div class="bibliography__links">
+        {{#with amazon }}
+        <a href="{{ this }}">Buy from Amazon</a>
+        {{/with}}
+        {{#with publisher }}
+        <a href="{{ this }}">Buy from the Publisher</a>
+        {{/with}}
+        {{#with audible }}
+        <a href="{{ this }}">Buy from Audible</a>
+        {{/with}}
+    </div>
+    {{/with}}
+</div>
+{{/each}}
+</div>
