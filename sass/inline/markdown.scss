@@ -9,6 +9,10 @@
     hyphens: auto;
   }
 
+  ul {
+    padding-left: 24px;
+  }
+
   .abstract + p::first-line,
   p:first-of-type::first-line {
     font-feature-settings: 'smcp';
@@ -66,6 +70,10 @@ h1 {
   font-size: 1.75em;
   line-height: 1.25;
   letter-spacing: -0.75px;
+
+  &:not(:first-child) {
+    margin-top: 32px;
+  }
 }
 
 @media only screen and (max-width: 1760px) {
