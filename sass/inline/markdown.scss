@@ -9,7 +9,8 @@
     hyphens: auto;
   }
 
-  ul {
+  ul,
+  ol {
     padding-left: 24px;
   }
 
@@ -58,10 +59,21 @@ h1 {
 .abstract {
   & > blockquote {
     margin: 0 0 1.5em 0;
-    background-color: #999; // TODO
-    border-color: #999; // TODO
+    background-color: var(--link-underline-color-abstract);
+    border: 1px solid #999;
     padding: 0.9rem 1.25rem 0.95rem 1.25rem;
     clear: none;
+    border-radius: 2px;
+
+    a {
+      text-shadow: 0 0.05em var(--link-underline-color-abstract),
+        0.05em 0.05em var(--link-underline-color-abstract),
+        -0.05em 0.05em var(--link-underline-color-abstract),
+        0.17em 0.05em var(--link-underline-color-abstract),
+        -0.17em 0.05em var(--link-underline-color-abstract),
+        0.17em 0 var(--link-underline-color-abstract),
+        -0.17em 0 var(--link-underline-color-abstract);
+    }
   }
 }
 
@@ -110,4 +122,8 @@ footer a,
     -0.05em 0.05em var(--link-underline-color), 0.17em 0.05em var(--link-underline-color),
     -0.17em 0.05em var(--link-underline-color), 0.17em 0 var(--link-underline-color),
     -0.17em 0 var(--link-underline-color);
+}
+
+.footnotes {
+  margin-top: 48px;
 }

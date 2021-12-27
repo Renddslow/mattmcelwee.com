@@ -1,16 +1,17 @@
 :root {
   --body-bg-color: #fff;
   --body-text-color: #000;
-  --body-external-link-color: #0645AD;
+  --body-external-link-color: #0645ad;
   --body-external-link-hover-color: #888; // TODO
-  --body-external-link-visited-color: #776AB4;
-  --body-internal-link-color: #E4572E;
+  --body-external-link-visited-color: #776ab4;
+  --body-internal-link-color: #e4572e;
   --body-internal-link-hover-color: #888; // TODO
-  --body-internal-link-visited-color: #E07F00;
+  --body-internal-link-visited-color: #e07f00;
   --body-selection-bg-color: #333; // TODO
   --body-selection-text-color: #fff; // TODO
   --body-link-visited-color: #777; // TODO;
 
   --link-gradient-color: #000;
   --link-underline-color: var(--body-bg-color);
+  --link-underline-color-abstract: #f7f7f7;
 }
