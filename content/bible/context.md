@@ -23,7 +23,7 @@ lastTended:
 ---!markdown
 
 1. I affirm a singular canon of authoritative Scripture, composed of two collections: the Hebrew Bible and the Greek New Testament.
-2. I affirm that the contents of the Hebrew Bible are the 39 books (by the Christian counting), which exclude those books called deuterocanonical. While those Second Temple writings may serve as examples of faith and provide insight into first century Jewish thought, they are neither authoritative with respect to doctrine nor inspired by the Holy Spirit. Furthermore, they need not be read in order to interpret meaning of any Biblical text.
+2. I affirm that the contents of the Hebrew Bible are the 39 books (by the Christian counting), which exclude those books called deuterocanonical. While those Second Temple writings may serve as examples of faith and provide insight into first century Jewish thought, they are neither authoritative with respect to doctrine nor inspired by the Holy Spirit.[^inspiration] Furthermore, they need not be read in order to interpret meaning of any Biblical text.
 3. I deny that the quotation of any Second Temple literature becomes inspired by virtue of its quotation in Scripture. Rather, its quotation in the context of that Scriptural text is inspired, truthful, and authoritative.
 4. I affirm that this canon, as delivered in its final form, reflects the full intentionality and inspiration of the Holy Spirit.
 5. I suggest that the proper ordering of the Hebrew canon is in the traditional Tanak ordering. In this way we may more appropriately practice Biblical theology across the canon in the order practiced by Jesus, at the very least, if not fully intended by the Holy Spirit and the redactors.[^redactors]
@@ -76,6 +76,7 @@ lastTended:
 52. I affirm that the preaching of the whole of Scripture is a mandated and normative practice of the Church. Furthermore, the regular public reading of the Scriptures is useful for the formation of the faithful.
 53. I affirm that clergy and lay have the ability to interpret the text, through the wisdom of the Holy Spirit, without a need – in nearly all cases – to ever leave the text.
 
+[^inspiration]: My view on this is shifting and I am becoming open to a view that would see the Deuterocanon being a Divine-human partnership but not necessarily authoritative in terms of doctrine. It is likely that this point will shift in future iterations as I do more work in this area.
 [^redactors]: I would add, though not directly germane to hermeneutics, that, in my opinion, this is the best ordering for a first-time Bible reader and has significant pedagogical value.
 [^hagar]:
     A compelling example of this is the name “Hagar” in Genesis. An English reading of Genesis 16 would still communicate the same meaning intended by the Holy Spirit and the human authors: Abram and Sarai abused their slave girl in an attempt to accomplish YHWH’s covenant through their own devices. Yet YHWH sees the girl and promises a great nation from her seed.
