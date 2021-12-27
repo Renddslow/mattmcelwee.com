@@ -19,3 +19,11 @@ a[data-footnote-ref] {
 .footnotes ol li:not(:last-child) {
   margin-bottom: 12px;
 }
+
+.footnotes p + p {
+  text-indent: 0;
+}
+
+.footnotes p:not(:last-child) {
+  margin-bottom: 12px;
+}
