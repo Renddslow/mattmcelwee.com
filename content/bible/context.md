@@ -2,9 +2,11 @@
 title: Position Paper on Hermeneutics
 originalAuthor: Matt McElwee
 metaKnowledge:
-  accuracy: This paper accurately considers my thoughts on context and Biblical
-    interpretation. It is most likely to be modified with regard to the role of
-    Church teaching in interpretative efforts.
+  accuracy: On reread after having posted this, I find myself disagreeing with my
+    approach to inspiration in general. While I broadly agree with the
+    "transitive property" approach when it comes to canonicity, I find myself
+    dubious about denying the inspiration of a given text simply because it is
+    not in the canon.
   certainty: highly likely
   completeness: Complete
   effort: This was one of the culminating efforts of a hermeneutics class and my
@@ -13,7 +15,7 @@ metaKnowledge:
 created: 2021-04-21T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2021-12-27
+  when: 2021-12-28
 ---
 
 ---!abstract
@@ -23,13 +25,13 @@ lastTended:
 ---!markdown
 
 1. I affirm a singular canon of authoritative Scripture, composed of two collections: the Hebrew Bible and the Greek New Testament.
-2. I affirm that the contents of the Hebrew Bible are the 39 books (by the Christian counting), which exclude those books called deuterocanonical. While those Second Temple writings may serve as examples of faith and provide insight into first century Jewish thought, they are neither authoritative with respect to doctrine nor inspired by the Holy Spirit.[^inspiration] Furthermore, they need not be read in order to interpret meaning of any Biblical text.
+2. I affirm that the contents of the Hebrew Bible are the 39 books (by the Christian counting), which exclude those books called deuterocanonical. While those Second Temple writings may serve as examples of faith and provide insight into first century Jewish thought, they are neither authoritative with respect to doctrine nor inspired by the Holy Spirit.[^inspiration] Furthermore, they need not be read in order to interpret meaning of any Biblical text.[^son-of-man]
 3. I deny that the quotation of any Second Temple literature becomes inspired by virtue of its quotation in Scripture. Rather, its quotation in the context of that Scriptural text is inspired, truthful, and authoritative.
 4. I affirm that this canon, as delivered in its final form, reflects the full intentionality and inspiration of the Holy Spirit.
 5. I suggest that the proper ordering of the Hebrew canon is in the traditional Tanak ordering. In this way we may more appropriately practice Biblical theology across the canon in the order practiced by Jesus, at the very least, if not fully intended by the Holy Spirit and the redactors.[^redactors]
 6. I affirm that the writings of Scripture are inspired by the Holy Spirit and are a cooperative project between God and humanity to convey God’s revelation. While limited, a helpful metaphor for understanding this unified project may be found in the confession of the Church that Christ is both God and Man. We neither can confound his nature nor divide his personhood. Similarly, the Church confesses Christ as having two wills, one Divine and one human, yet both operated in full cooperation with one another, never being coerced or held hostage by one or the other. In a similar fashion, we may understand the cooperation of the Spirit and the human authors.
 7. I deny that Scripture was mere dictation by the Holy Spirit or any other divine being, or that the human writers were in an ecstatic state when much of Scripture was written.
-8. I deny that the human authors were themselves inspired, nor did they become inspired through their participation in the writing of Scripture. Similarly, we may not define any later discoveries, though authorship be verified, as having been inspired through the transitive property.
+8. I deny that the human authors were themselves inspired, nor did they become inspired through their participation in the writing of Scripture. Similarly, we may not define any later discoveries, though authorship be verified, as having been inspired through the transitive property.[^transitive]
 9. While authors are not themselves inspired, this does not diminish the offices under which many of the writers or contributors operated under. The writing prophets, for example, may have performed signs and speeches through the power of the Holy Spirit which have not been recorded. These would have been authoritative for the community to which they were performed and indeed a means of revelation, but having not been included in Scripture, would not fit this definition of inspired nor canonical.
 10. I affirm that redaction was performed to produce the final form of the Hebrew Bible. This process was guided by the Holy Spirit and produced a thoughtfully arranged canon full of intertextual markers and allusions.
 11. I affirm that the Scriptures are a unified story which leads to Jesus. A proper hermeneutic is one that reads all of Scripture through this metanarrative.
@@ -37,7 +39,7 @@ lastTended:
 13. I deny that mastery of Biblical languages is necessary to properly interpret the meaning of Scripture.
 14. I affirm that that the role of Biblical translators and Biblical scholars is both necessary and helpful in the Christian community and that the work they perform is normatively guided by the Holy Spirit.
 15. I affirm that hermeneutics and exegesis may be performed either in the original languages or in the native language of the interpreter to similar effect. As all translation must necessarily include an interpretive element in order to perform a gloss, the interpreter is merely adding to their own interpretive efforts work that has been performed by English translators.
-16. I affirm that word studies, performed by clergy and well-trained lay people, are beneficial primarily for identifying intertextual markers across the canon and may occasionally provide deep discovery.[^hagar] However, word studies are not a necessary process in normative interpretation to uncover the meaning of the authors.
+16. I affirm that word studies, performed by clergy and well-trained lay people, are beneficial primarily for identifying intertextual markers across the canon and may occasionally provide deep discovery.[^hagar] However, word studies are not a necessary process in normative interpretation to uncover the meaning of the authors.[^hyperlinks]
 17. I deny that technical historical knowledge of the Ancient Near East, Second Temple Judaism, first century Palestine, or the Greco-Roman world is necessary for proper interpretation of Scripture.
 18. I deny that knowledge of Second Temple texts or theology subvert or provide meaning to the New Testament epistles.
 19. I affirm that Second Temple texts or theology may subvert or deconstruct meanings which have been read into New Testament texts over the course of Church history. I write especially here of the New Perspectives movement, especially Sanders, Dunn, and Wright, which at its best seeks to unwind some notions of “law” and “works” in the New Testament from mid-16th century critiques of Medieval Catholic theology and practice.
@@ -77,6 +79,8 @@ lastTended:
 53. I affirm that clergy and lay have the ability to interpret the text, through the wisdom of the Holy Spirit, without a need – in nearly all cases – to ever leave the text.
 
 [^inspiration]: My view on this is shifting and I am becoming open to a view that would see the Deuterocanon being a Divine-human partnership but not necessarily authoritative in terms of doctrine. It is likely that this point will shift in future iterations as I do more work in this area.
+[^son-of-man]: Robert Snow [presents an interesting scenario](https://www.amazon.com/Daniels-Son-Man-Mark-Redefinition/dp/1498278949) through which some Second Temple literature (namely some Enochic texts) provide additional validation for interpreting Daniel 7. Snow is hardly a consensus view however, given Smith-Christopher's seminal text _[The Religion of the Landless](https://www.amazon.com/Religion-Landless-Social-Context-Babylonian/dp/1608994783)_ which denies Antiochene persecution at the forefront of Daniel 7.
+[^transitive]: I think this is far more complex now (8 months hence) to be overly simplistic, perhaps even reductive. The precise nature of inspiration – a Divine-human partnership expressed in written form – need not relegate itself to the canon. I think we may readily call the canon closed while not limiting inspiration.
 [^redactors]: I would add, though not directly germane to hermeneutics, that, in my opinion, this is the best ordering for a first-time Bible reader and has significant pedagogical value.
 [^hagar]:
     A compelling example of this is the name “Hagar” in Genesis. An English reading of Genesis 16 would still communicate the same meaning intended by the Holy Spirit and the human authors: Abram and Sarai abused their slave girl in an attempt to accomplish YHWH’s covenant through their own devices. Yet YHWH sees the girl and promises a great nation from her seed.
@@ -88,3 +92,4 @@ lastTended:
 [^historicity]: This would include the Incarnation, miracles of Jesus, the death and resurrection of Christ, and the ascension. It should be noted that this is speaking of these events specifically. We may ardently defend the historicity of the resurrection while denying that the Gospel writers be bound to our modern sensibilities of communicating historical events, as John places the Last Supper at a different date than do the synoptic writers.
 [^walton]: I am personally indebted in these two areas to the work of John H. Walton.
 [^canon]: I think it helpful to note that while I tend to think this is helpful, I am not advocating for slicing and dicing the canon. While I have respect for the scholars and thinkers who have arranged so-called “chronological Bibles,” I think they only add to a growing problem of Biblical illiteracy in American culture which rips texts bleeding from their canonical context.
+[^hyperlinks]: I think this could be nuanced a great deal more than originally presented. If intertextual markers are necessary to interpretation and those markers are smoothed over, obfuscated, or removed through translation, then work with the original language – either directly or through aids – would be necessary for interpretation.
