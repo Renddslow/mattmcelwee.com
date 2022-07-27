@@ -15,7 +15,9 @@ lastTended:
 
 👋 I’m a software engineer, manager, writer, and wannabe Bible nerd, currently living in Omaha, NE.
 
-Right now, I’m leading a team of web and mobile developers in a massive conversion effort taking a Windows thick-client application to the web at [DMSi](https://dmsi.com/). Before that I spent time in eCommerce and building a CMS for a white label application. I care a great deal about honing my craft as a manager and thinking about how to grow individuals and develop good software.
+Right now I'm a lead developer on [Learn.Bible](https://learn.bible/), a free courseware platform by [BibleProject](https://bibleproject.com) designed for churches and non-profit ministry organizations. It's a neat way to engage my research interests of pedagogy and Christian formation with software development practices.
+
+Most recently I was leading a team of web and mobile developers in a massive conversion effort taking a Windows thick-client application to the web at [DMSi](https://dmsi.com/). Before that I spent time in eCommerce and building a CMS for a white label application. I care a great deal about honing my craft as a manager and thinking about how to grow individuals and develop good software.
 
 I’m also a Christian and am obsessed with the [Bible](/bible) and the surrounding scholarship. I’m also really interested in how history, sociology, and economics come to bare on the [spiritual formation](/formation) of folks.
 
