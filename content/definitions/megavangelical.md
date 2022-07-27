@@ -33,7 +33,7 @@ I will define this term as "megavangelical." In this essay I will seek to clearl
 
 ## Evangelicalism Defined
 
-Evangelicalism is classically defined by what has been called [the Bebbington quadrilateral](!W). These are discreet set of four characteristics first defined by David Bebbington in his book _Evangelicalism in Modern Britain_[^britain]:
+Evangelicalism is classically defined by what has been called the [Bebbington quadrilateral](!W). These are discreet set of four characteristics first defined by David Bebbington in his book _Evangelicalism in Modern Britain_[^britain]:
 
 1. Conversionism - As Bebbington describes it, this is focused chiefly on the conversion of the individual. This is two-fold. On one hand, a person would define themselves as an Evangelical on the basis of their so-called conversion experience. On the other hand, a church or minister might be defined as being Evangelical by being focused on converting souls – especially through the sermon.
 2. Activism - Largely this is focused on the activity of the church. It is not merely settled in prayer and preaching, but works out its spirituality through Evangelism, missions work, and other social-good activities.
