@@ -1,5 +1,5 @@
 ---
-title: 'Personal Notes: A Manifesto'
+title: 'Essays: A Manifesto'
 originalAuthor: Matt McElwee
 metaKnowledge:
   certainty: ''
