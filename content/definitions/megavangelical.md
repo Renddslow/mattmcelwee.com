@@ -5,8 +5,7 @@ metaKnowledge:
     accuracy: ""
     certainty: "possible"
     completeness: "Incomplete"
-    effort: "Merely created a stub"
-    preRequisites: ""
+    effort: "Have done considerable research on the defining natures of both Evangelicalism and the megachurch movement. This is a term I have used in my personal vocabulary for over three years, and am now attempting to thoroughly define it and create a reference work for future use."
 created: 2022-07-19
 lastTended:
     by: ""
