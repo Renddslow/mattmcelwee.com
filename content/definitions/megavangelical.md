@@ -21,15 +21,23 @@ lastTended:
 
 ---!markdown
 
-Evangelicalism is a difficult enough word to define. [Since the 2016 presidential election](https://www.washingtonpost.com/news/acts-of-faith/wp/2016/11/09/exit-polls-show-white-evangelicals-voted-overwhelmingly-for-donald-trump/), the public imagination around evangelicalism is largely associated with a voting block.
+Something I have noticed is a shift in the nature of a particular type of church within the broader Evangelical movement. This type of church is difficult to define, and terms that have been used to define it are many times used as pejoratives. Further, some terms overlap and other terms describe some churches but not most churches within this subset of Evangelicalism.
 
-But within studies of church trends, Evangelicalism occupies a unique space within the church. Evangelicalism transcends denominational boundaries, even in places where important elements of doctrinal belief are not shared. Consider for instance the Presbyterian Church in America (PCA) which holds a few of infant baptism under the classical doctrine of [covenant theology](!W). Meanwhile, the Southern Baptist Church (SBC) is an inheritor of the anabaptists, believing that only adult (or believer's) baptism is licit. Yet both would be defined and (importantly) self-identify as Evangelical.
+The church that I am thinking about might have at one time been described as having a "church growth" mindset. Perhaps it would be called "seeker-sensitive" or "experiential." It might be classified under the banner of neo-charismatic, with strong Baptist overtones.
+
+In simple terms, I'm thinking of megachurches, or churches that act like they are (or will soon become) a megachurch.
+
+The challenge with these churches in general is that they largely defy definition. Evangelicalism is a difficult enough word to define. [Since the 2016 presidential election](https://www.washingtonpost.com/news/acts-of-faith/wp/2016/11/09/exit-polls-show-white-evangelicals-voted-overwhelmingly-for-donald-trump/), the public imagination around evangelicalism is largely associated with a voting block.
+
+But within studies of church trends, Evangelicalism occupies a unique space within the church. Evangelicalism transcends denominational boundaries, even in places where important elements of doctrinal belief are not shared. Consider for instance the Presbyterian Church in America (PCA) which holds a view of infant baptism under the classical doctrine of [covenant theology](!W). Meanwhile, the Southern Baptist Church (SBC) is an inheritor of the anabaptists, believing that only adult (or believer's) baptism is licit. Yet both would be defined and (importantly) self-identify as Evangelical.
 
 Within the big tent[^big-tent] of Evangelicalism, you will find complimentarians and egalitarians, paedobaptists and believers baptists, charismatics and cessationists, Calvinists and Arminians.
 
 But further within the big tent of Evangelicalism, in a phenomenon that further cuts across theological and denominational divides is a movement of megachurches.[^white-megachurch] The association of megachurches as an Evangelical phenomenon is not new. However, what I have observed is the ways in which the megachurch movement has impacted a wide-variety of Evangelical churches in their ecclesiologies and strategies to the point where though they could not be defined as a megachurch on the basis of their size, they think and act like megachurches do.
 
-I will define this term as "megavangelical." In this essay I will seek to clearly define what I see as a subset of a variety of movements and attempt to discover a space and phenomenon which defines a growing church movement.
+I will define these churches as "megavangelical." In this essay I will seek to clearly define what I see as a subset of a variety of movements and attempt to discover a space and phenomenon which defines a growing church movement.
+
+To do this, I will begin by defining the term Evangangelicalism as it is used within the movement by its dominant internal voices. I will then seek to define the megachurch movement, especially as far as what constitutes a megachurch and what are shared characteristics among them.
 
 ## Evangelicalism Defined
 
