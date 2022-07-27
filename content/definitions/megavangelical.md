@@ -17,7 +17,7 @@ lastTended:
 
 ---!abstract
 
-Attempts to define a subset of the Evangelical movement primarily characterized by their affiliation with the broader mega church movement, whether or not they would be considered a megachurch in terms of demography. This essay will seek to identify demographic, theological, historical, and ecclesiological (including both a theology of the church and church polity) characteristics which help to define the movement.
+> Attempts to define a subset of the Evangelical movement primarily characterized by their affiliation with the broader mega church movement, whether or not they would be considered a megachurch in terms of demography. This essay will seek to identify demographic, theological, historical, and ecclesiological (including both a theology of the church and church polity) characteristics which help to define the movement.
 
 ---!markdown
 
