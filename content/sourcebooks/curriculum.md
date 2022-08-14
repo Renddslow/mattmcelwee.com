@@ -29,7 +29,22 @@ What these sources will not do is provide the nuance that is desperately needing
 
 For example, there is considerable value in telling children of a certain age a story about World War II which paints Nazism as pure villainy[^2] and America as a united front against it. Sure it took some time for us to get involved, but in the end, America united against tyranny and fascism. Yet it is equally valuable to tell children (likely of an older age) the story of the of the [1939 Nazi rally at Madison Square Garden](!W), an event attended by more than 20,000 Americans. In this telling of the story of America versus fascism, we are forced to think about [Arendt's banality of evil](https://www.amazon.com/Origins-Totalitarianism-Hannah-Arendt/dp/0156701537) and wrestle with the reality that it could happen here.
 
+We shouldn't further our conversations on whether both visions of America should be taught to children.[^3] Rather, we should be ardently focused on when and how we should teach those visions. They cannot be taught at the same time, they are in some ways conflicting stories. But at the same time, they aren't. They are stories of a nation that wrestled with its own demons ([and still is](https://en.wikipedia.org/wiki/Unite_the_Right_rally)) but ultimately overcame them to fight one of the greatest evils in the last century.
+
 What we do when we try to jettison content out of mere discomfort or a vision of history that can only see the former America and not the latter, we open ourselves up to not learn from past mistakes, not out of hatred for our nation, but out of deep love for both it and our neighbor.
 
-[^1]: And segregation. Randall Balmer is considered [the first to make this connection](https://www.amazon.com/Thy-Kingdom-Come-Religious-Threatens/dp/0465005209), but everyone from Kruse to Du Mez to Vischer have further highlighted the peculiarity in the evangelical (and then Moral Majority) rally around the pro-life cause.
+## On a Good Polis
+
+## On the Christian Case for Love of Nation
+
+## Against Nationalism
+
+## On Liberalism and Pluralism
+
+## On the Case for a Liberal Education
+
+## Critical Race Theory
+
+[^1]: And segregation. Randall Balmer is considered [the first to make this connection](https://www.amazon.com/Thy-Kingdom-Come-Religious-Threatens/dp/0465005209), but everyone from [Kruse](https://www.amazon.com/One-Nation-Under-God-Corporate/dp/1501238213) to [Du Mez](https://www.npr.org/2022/05/08/1097514184/how-abortion-became-a-mobilizing-issue-among-the-religious-right) to [Vischer](https://www.youtube.com/watch?v=RvWD7ykNjCc) have further highlighted the peculiarity in the evangelical (and then Moral Majority) rally around the pro-life cause.
 [^2]: Which it was, this is not the bit that needs nuance.
+[^3]: Lies to children.
