@@ -1,5 +1,5 @@
 ---
-title: Curriculum
+title: 'Curriculum: A Sourcebook'
 originalAuthor: Matt McElwee
 metaKnowledge:
   accuracy: ''
