@@ -37,7 +37,7 @@ const createTOC = () => (tree) => {
 
   const parentUl = {
     type: 'element',
-    tagName: 'ul',
+    tagName: 'ol',
     children: [],
   };
 
@@ -51,7 +51,7 @@ const createTOC = () => (tree) => {
 
   toc.children.push(parentUl);
 
-  tree.children = toc.children.length > 1 ? [toc, ...tree.children] : tree.children;
+  tree.children = parentUl.children.length > 1 ? [toc, ...tree.children] : tree.children;
 };
 
 export default createTOC;

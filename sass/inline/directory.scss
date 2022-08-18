@@ -9,7 +9,7 @@ h2.directory-section {
 ul.directory {
   padding-left: 24px;
   column-count: 2;
-  column-gap: 12px;
+  column-gap: 48px;
 
   @media screen and (max-width: 767px) {
     column-count: 1;
@@ -17,5 +17,10 @@ ul.directory {
 
   li {
     margin-bottom: 18px;
+  }
+
+  li,
+  li a {
+    text-align: left;
   }
 }
