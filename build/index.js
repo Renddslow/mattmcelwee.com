@@ -16,6 +16,7 @@ import createPublishPathFromPermalink from './createPublishPathFromPermalink.js'
 import compileInlineStyles from './compileInlineStyles.js';
 import createIndexPage from './createIndexPage.js';
 import makeBibliography from './makeBibliography.js';
+import createDirectory from './createDirectory.js';
 
 const TAB = '    ';
 
@@ -104,6 +105,13 @@ const fnTry = (cb) => {
     filesToRender.map(async (f) => {
       if (f.relPermalink === '/') {
         f.content += createIndexPage(filesToRender);
+      }
+
+      if (f.isDirectory && !f.isHome) {
+        const pagesInSection = filesToRender.filter((p) => {
+          return f.section.replace(/\//g, '') === p.section.replace(/\//g, '');
+        });
+        f.content += createDirectory(pagesInSection);
       }
 
       const html = template({
