@@ -57,3 +57,53 @@ header h1 {
   display: block;
   user-select: none;
 }
+
+.table-of-contents {
+  float: left;
+  max-width: 285px;
+  margin: 0 2rem 1.5rem 0;
+  padding: 0.5em 0.5em 0.75em 0.75em;
+  position: relative;
+  z-index: 11;
+  font-variant-numeric: tabular-nums;
+  border: 1px solid #999;
+  background-color: var(--link-underline-color-abstract);
+  font-family: var(--font-sans-serif);
+  line-height: 1.25;
+
+  @media screen and (max-width: 900px) {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  li {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  li::marker {
+    color: var(--body-text-alt);
+  }
+
+  li a {
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    color: var(--body-text-color);
+    background: none;
+    width: 100%;
+    display: block;
+    padding: 4px 8px 4px 4px;
+    border-right: 6px solid transparent;
+
+    &:hover {
+      background: #dfdfdf;
+      border-right: 6px solid #000;
+    }
+  }
+}

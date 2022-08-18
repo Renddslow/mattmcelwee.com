@@ -42,6 +42,7 @@ const toHTML =
       unknownHandler: (h, node) => {
         if (node.type === 'element') return node;
       },
+      allowDangerousHtml: true,
     });
 
 export default toHTML;

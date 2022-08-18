@@ -15,7 +15,7 @@
   }
 
   .abstract + p::first-line,
-  p:first-of-type::first-line {
+  & > p:first-of-type::first-line {
     font-feature-settings: 'smcp';
   }
 
@@ -82,6 +82,7 @@ h1 {
   font-size: 1.75em;
   line-height: 1.25;
   letter-spacing: -0.75px;
+  margin-bottom: 16px;
 
   &:not(:first-child) {
     margin-top: 32px;
