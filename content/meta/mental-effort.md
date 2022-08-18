@@ -12,3 +12,5 @@ lastTended:
   by: Matt McElwee
   when: 2022-08-18
 ---
+
+::TODO:: An adaptation of this article: https://devonzuegel.com/post/epistemic-statuses-are-lazy-and-that-is-a-good-thing
