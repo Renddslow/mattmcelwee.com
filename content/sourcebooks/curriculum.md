@@ -2,15 +2,22 @@
 title: 'Curriculum: A Sourcebook'
 originalAuthor: Matt McElwee
 metaKnowledge:
-  accuracy: ''
+  accuracy: Largely accurate, though strongly trends in a defense of liberal
+    education for the sake of a flourishing liberal, pluralistic democracy. The
+    nature of both liberalism and pluralism are both worthy of discussion, but
+    are out of scope here.
   certainty: possible
-  completeness: Incomplete
-  effort: Merely created a stub
+  completeness: Largely complete
+  effort: I have spent the last few years engaging in these topic areas,
+    especially in areas of America's racial history and more recently in
+    curriculum development and pedagogy. This list is at once a reflection of
+    that effort and an attempt to bring that together to form a sourcebook
+    oriented towards current concerns about curriculum in public schools.
   preRequisites: ''
 created: 2022-08-14T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-08-18
+  when: 2022-08-21
 ---
 
 The culture war seems to be shifting. When it began, the central focus was on abortion.[^1] It extended out with concerns of feminism, sexual mores, and the like. In the last two years, a seismic shift seems to have taken place. Rather than the culture war being defined by a vision of morality, as in Haidt's [moral foundations theory](https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777), the culture war seems to have shifted to what we believe to be true about our purpose and praxis as a nation.
@@ -41,9 +48,11 @@ What we do when we try to jettison content out of mere discomfort or a vision of
 
 ## A Biblical Primer on Education
 
-The Biblical witness on education is somewhat scant. This is sensible as the oral tradition and scant writings which formed the basis for the [Torah](!W) originated at a time when Israel was a small, isolated nation whose primary vocation was subsistence farming. The emergence of statecraft would've been wholly unnecessary until at least the united monarchy in the 10th century, and even the idea of civic life – as conceived by Plato and Aristotle, would've been a long time in coming.
+The Biblical witness on education is somewhat scant. This is sensible as the oral tradition and scant writings which formed the basis for the [Torah](!W) originated at a time when Israel was a small, isolated nation whose primary vocation was subsistence farming. The emergence of statecraft would've been wholly unnecessary until at least the united monarchy in the 10th century, and even the idea of civic life – as conceived by Plato, Aristotle, or Cicero, would've been a long time in coming.
 
 As such, the content on which pedagogical instruction from the Scriptures point is not on civic engagement, but on passing on the faith and God's teaching.
+
+By Jesus and Paul's day, civic life was more in view, especially as wealthier (and therefore higher society) gentiles joined the Church. But again, for the average Christian, civic education was not overly important, as the participation in civic life was primarily (and often only) a matter of paying taxes.
 
 **Exodus 12:24-28, 13:11-16**
 
@@ -57,17 +66,27 @@ Here we see one of the principle practices of passing down the faith: song.
 
 The first time in the Bible that the writing of the Bible is mentioned.
 
-**Leviticus 10, Leviticus 14, Deuteronomy 33**
+**Leviticus 10, Leviticus 14, Deuteronomy 24, Deuteronomy 33**
+
+Here we see the Levites tasked the responsibility of teaching the instructions (_torah_) of YHWH to the people of Israel. This is something that was meant to be retained over generations, to keep the memory of these instructions. What we see in Judges especially (and then drawn on in Ruth much later) is that the Levites had neglected the teaching of the _torah_ and even participated in apostasy and violence (cf. Judges 18-28).
 
 **Deuteronomy 4-6, 11**
 
+The memory of the _torah_ and of YHWH's sovereignty is meant to be kept by the people in their daily practice. The _shema_ of Deuteronomy 6 was prayed every morning and night, even bound in boxes and tied to the forehead or right hand as a way of keeping the _torah_ always on their minds. They are instructed to teach them to their children. In this way, whole community participates in passing the _torah_ on, both by explicitly teaching and by keeping the commands.
+
 **Deuteronomy 17**
 
-**Deuteronomy 24**
+In one of the rare instructions on civic life, we are given the instructions for what a good king of Israel looks like and what he is prohibited from doing. Importantly, the Levites are meant to provide him with
 
-**2 Kings 17**
+**2 Kings 17, 2 Chronicles 15**
+
+Two reminders even into the darkest times of Israel's history of the role of the priest in the religious education of the people. The priest's role was perhaps seen first as pedagogue and only then as mediator.
 
 **Psalm 71**
+
+Psalm 71 is among many Psalms (and so is offered as representative of the whole) that speak of YHWH's teaching of the Psalmist. The Psalmist's response is a deep zeal that wishes to proclaim the mighty deeds of YHWH to the next generation.
+
+We ought to consider in all of these Psalms examples that the Psalmist may well be speaking of the _Torah_ as the instruction of YHWH and personalizing it, as though YHWH had personally taught it in a classroom to the Psalmist. This is not to say that YHWH met on a mountaintop with the Psalmist, but that YHWH's instruction (_torah_) is always new and fresh, teaching each generation as if being taught for the first time.
 
 **Proverbs 22:6**
 
@@ -77,45 +96,53 @@ This is of course an inference and not strictly stated in the text. _Chanak_ (tr
 
 It has been highlighted too (and Milgrom draws on this definition in his Numbers commentary) that we might better render this as, "train up a child in the way that is right for them." This is a very important distinction.
 
-**2 Chronicles 15**
+## A Good, Liberal, and Enlightened [Polis](https://en.wikipedia.org/wiki/Polis#The_polis_in_Ancient_Greek_philosophy)
 
-## On a Good Polis
+Aristotle. (2004). _Nicomachean Ethics_ (Thomson, H. T. J. A. K., Trans.). Penguin Classics. (Originally published c. 335 – 322 BCE)
 
-Plato. _The Republic_.
+Haidt, J. (2022, April 11). _Why the Past 10 Years of American Life Have Been Uniquely Stupid_. The Atlantic. https://www.theatlantic.com/magazine/archive/2022/05/social-media-democracy-trust-babel/629369/
 
-Federalist no. 10.
+Locke, J. (1996). _Some Thoughts Concerning Education and of the Conduct of the Understanding_ (Grant, R. W., & Tarcov, N., Eds.). Hackett Publishing Company, Inc. (Original work published 1693)
 
-Deuteronomy 17
+Madison, J. (n.d.). _Federalist Papers No. 10 (1787)_. https://billofrightsinstitute.org/primary-sources/federalist-no-10
 
-After Babel
+Plato. (2007). _The Republic_ (Lee, D., Trans.). Penguin Classics. (Originally published c. 375 BCE)
+
+Rousseau, J. J. (2012). _Of the Social Contract and Other Political Writings_ (Bertram, C., Ed., Hoare, Q., Trans.). Penguin Classics. (Originally published 1762)
 
 ## On the Christian Case for Love of Nation
 
-The Four Loves.
+Lewis, C. S. (2017). _The Four Loves_ (Reissue edition). HarperOne.
 
-_How to Be a Patriotic Christian: Love of Country as Love of Neighbor_.
+Mouw, R. J. (2022). _How to Be a Patriotic Christian: Love of Country as Love of Neighbor_. IVP.
 
-## On Liberalism and Pluralism
+Schiess, K. (2020). _The Liturgy of Politics: Spiritual Formation for the Sake of Our Neighbor_. IVP.
 
-Locke, J. _Some Thoughts Concerning Education_.
+## On Pedagogy
 
-The Demands of Liberal Education
+Bauers, S. W. (2016) _The Well-Trained Mind: A Guide to Classical Education at Home_ (4th edition). W. W. Norton & Company. (Originally published 1999)
 
-Amusing Ourselves to Death.
+Freire, P. (2018). _Pedagogy of the Oppressed: 50th Anniversary Edition_ (4th edition). Bloomsbury Academic. (Originally published 1968)
 
-Pedagogy of the Oppressed
+Levinson, M. (1999). _The Demands of Liberal Education_. Oxford University Press.
 
-Bauers, S. W. _The Well-Trained Mind: A Guide to Classical Education at Home._
+Postman, N. (2005). _Amusing Ourselves to Death_ (Anniversary edition). Penguin Books.
+
+Wexler, N. (2019). _The Knowledge Gap: The hidden cause of America's broken education system–and how to fix it_. Avery.
 
 ## On Critical Race Theory
 
-_Critical Race Theory: Third Edition_
+Delgado, R., & Stefanic, J. (2017). _Critical Race Theory (Third Edition): An Introduction_ (3rd edition). NYU Press.
 
-_Racism Without Racists_
+Bonilla-Silva, E. (2017). _Racism without Racists: Color-Blind Racism and the Persistence of Racial Inequality in America_ (5th edition). Rowman & Littlefield Publishers.
 
-_The Color of Law_
+Rothstein, R. (2018). _The Color of Law: A Forgotten History of How Our Government Segregated America_ (Reprint edition). Liveright.
 
 This is one of the most useful introductions to the basic history of [_de jure_](!W) racism in America. An important note, this is _not_ a critical race theory text. It is rather a refutation of [_Milliken v. Bradley_](!W) through the discipline of history. It does serve as a helpful primer to better explore the theories of Crenshaw, Delgado, and Silva in light of injustices which have been encoded into law, either implicitly or explicitly.
+
+---
+
+This sourcebook, outside of the Scripture references, largely focused on the need for education which benefits civic life – especially in a liberal, democratic polis. I have offered little in the way of Christian formation and education. To that end, I will also submit a small note of my own, which I hope to eventually develop into a full essay, but is now a collection of thoughts: [Children should have a robust Christian education](/christian-education/children).
 
 [^1]: And segregation. Randall Balmer is considered [the first to make this connection](https://www.amazon.com/Thy-Kingdom-Come-Religious-Threatens/dp/0465005209), but everyone from [Kruse](https://www.amazon.com/One-Nation-Under-God-Corporate/dp/1501238213) to [Du Mez](https://www.npr.org/2022/05/08/1097514184/how-abortion-became-a-mobilizing-issue-among-the-religious-right) to [Vischer](https://www.youtube.com/watch?v=RvWD7ykNjCc) have further highlighted the peculiarity in the evangelical (and then Moral Majority) rally around the pro-life cause.
 [^left-crt]: It's important to emphasize that within this rhetorical device I am not claiming that any proponent on the left is extending the discussion of race (as a content-area) beyond the subjects in which it has traditionally been taught (social studies, history, and occasionally language arts).
