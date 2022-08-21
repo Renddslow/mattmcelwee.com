@@ -160,3 +160,8 @@ footer a,
 .markdown table tr:nth-child(2n) {
   background-color: #f6f8fa;
 }
+
+.markdown > blockquote {
+  border-left: 4px solid #c6ced6;
+  padding-left: 24px;
+}
