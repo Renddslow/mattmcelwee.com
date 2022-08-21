@@ -39,13 +39,15 @@ All together, there are three possible guesses for the the total amount of tithe
 2. 20% for two years and 30% on the third year. This takes the Levitical and festival together on years 1 and 2, and then adds a full ten percent on the poor tithe years.
 3. 30% - This assumes that the poor tithe was a full yearly tithe which would accumulate over the three years.
 
+It is worth adding that the deuterocanonical book of [Tobit](!W) and Josephus affirm the three tithe system as being the understanding throughout the Second Temple period up until the fall of Jerusalem in 70 CE.
+
 ### Offerings
 
 It is commonly spoken in Evangelical circles that the Scriptures commanded tithes and that offerings were anything above and beyond the tithe. This is reductive.
 
 While many offerings were voluntary and tended to be associated with thankfulness or devotion to God, they were nonetheless instructed in the sense that amount, quality, and type were strictly defined. Furthermore, all of these offerings were associated with the Levitical cult, which means that while they were voluntary, they were associated with the rituals defined by YHWH for the Tabernacle, altars, and eventually Temple.
 
-Crucially, the offerings were shared among the Levites. The proper rites were performed, and then the Levites were given allotted portion. Once again, the care of the Levites is at play.
+Crucially, the offerings were shared among the Levites. The proper rites were performed, and then the Levites were given allotted portions. Once again, the care of the Levites is at play amidst the general instruction for YHWH worship.
 
 Below is a table of the offerings that were made.
 
@@ -57,8 +59,60 @@ Below is a table of the offerings that were made.
 | Guilt Offering | Lev 5:14–6:7; 7:1–6; 14:12–18 | Unblemished ram or lamb                                                                                      | Mandatory | Explicit violation of the rights of others and unjust dealings; Also employed occasionally for desecration |
 | Peace Offering | Lev 3; 7:11–36                | Any animal without blemish                                                                                   | Voluntary | Thanksgiving and fellowship with God                                                                       |
 
+### Tithing in Malachi
+
+Tithing makes scant reappearance in the rest of the Hebrew Bible. As with much of the Levitical cult, much of it goes ignored until the Deuteronomic Reform under [Josiah](!W). But most famously, tithing reappears in the famed Malachi 3:8-12 text. I offer it in full for discussion:
+
+> “Would anyone rob God? Yet you are robbing Me! But you say, ‘How have we robbed You?’ In tithes and offerings. You are cursed with a curse, for you are robbing Me, the entire nation of you! Bring the whole tithe into the storehouse, so that there may be food in My house, and put Me to the test now in this,” says the Lord of armies, “if I do not open for you the windows of heaven and pour out for you a blessing until it overflows. Then I will rebuke the devourer for you, so that it will not destroy the fruit of your ground; nor will the vine in the field prove fruitless to you,” says the Lord of armies. “All the nations will call you blessed, for you will be a delightful land,” says the Lord of armies.
+
+At issue here is Israel being unwilling to tithe the full, obligated amount in order to care for the Levites and priests. The whole message of Malachi is a socially complex one. The Israelite people have only just returned from exile and the Temple has just been restored. They've lived in a Babylonian and then Persian milieu, with different beliefs and practices. Now they're back. The question is can they obey God and still sustain their own needs. The challenge of subsitence farming is that you tend to only produce what you will eat. In most subsistence communities, they moved in a cycle of famines. Animals provided insurance against hard times.[^3]
+
+To give up their insurance and even their yields for tithes and offerings was to risk starvation in a time of social and economic instability.
+
+The passage mentions offerings. It is easy for us to import a modern vision of "additional dollars outside my tithe" here. But again, in this context, we are likely looking at food stuffs associated with the Levitical cult (as in the table above). Croteau suggests that this understanding requires us to understand that these were _part_ of the so-called "Biblical minimum," not separate.[^2]
+
+Because these offerings were more strictly defined in terms of what type of element was being sacrificed, we are at odds to port them to modern notions of giving (in financial terms). What is the equivalence between a goat for a king and a tenth of an ephah of flour for the poor?
+
+Fundamentally, this vision of Malachi should not attempt to separate the Biblical instruction of the Levitical tithe nor the instruction for offerings from one another. They are both woven together in this text and specifically speak to the care of a community of people (the Levites) who do not own land nor produce food.
+
+Our challenge will be determining if this vision, oft used to affirm a Biblical mandate on tithing for Christians, is still applicable.
+
+### The Gospels
+
+In Greek, the word for paying tithe is _apodekatoo_ (ἀποδεκατόω). As a verb, it appears 4 times, one of those in Hebrews 7. The noun form is _dekatoó_ (δεκατόω) appears only twice, both in Hebrews 7.
+
+**Matthew 23:23, Luke 11:42**
+
+Here Jesus castigates the scribes and Pharisees for their fine-grained focus on the _Torah_ instructions, down to their window box spice plants, but forgetting entirely the broader theme of [_tsedekah_](https://www.youtube.com/watch?v=A14THPoc4-4). When coupled with Matthew 23:1-3 we would be hard-pressed to assume that Jesus is entirely abrogating the practice of tithing, and certainly for Jews, it would be wrong to assume so. Nevertheless, this is not an open affirmation nor a clear carry-forward into the so-called new covenant.
+
+**Luke 18:12**
+
+In the parable of the Pharisee and Publican, the Pharisee highlights among his righteous deeds that he gives a tithe of all that he has. We are never left with the impression that it is this action that is improper. Rather it is the boastful, proud heart that which leaves him unjustified (cf Lk 18:15).
+
+It's worth noting too, in all three Gospels' uses of "tithing" we are never given the sense that these are the "storehouse" tithe of Malachi 3 (and therefore the Levitical tithe). Therefore, we should assume that as in Tobit, the witness here is to the three-fold tithe.
+
+### Hebrews 7
+
+We do not find the word, nor references to tithing again in the New Testament until [Hebrews 7](https://www.biblegateway.com/passage/?search=Hebrews%207&version=nasb). It is important that we pair this one with Genesis 14 and Psalm 110. The connection that the author of Hebrews is making is not about the practice of tithing. Rather it is highlighting Jesus' priesthood as being greater than Levitical priesthood. It uses the tithe made to Melchizedek as a means of contrasting his priesthood with the Levites and the [kohanim](!W).
+
+### Beyond the New Testament
+
+The practice of tithing is not emphasized in the early church community. In the section below on the Biblical vision of generosity I will highlight the many texts in both the Hebrew Bible and the New Testament that speak to giving, care of the clergy, and generosity, but for now, I will demonstrate that the issue of tithing was not a central theme in the early church.
+
+One of our earliest books outside of the New Testament canon is the [_Didache_](!W). This book contains the teachings of the Twelve Apostles and was attested as reliable by many of the early Church fathers. Unlike the epistles of the New Testament, this is a far more practical guide to operating a local church. It contains instructions on prayer, liturgy, and church governance.
+
+In chapter 4, we are given a note on generosity:
+
+> Be not one that stretches out his hands for receiving, but draws them in for giving. If thou hast anything, thou shalt give with thy hands a ransom for thy sins. Thou shalt not hesitate to give, nor in giving shalt thou murmur, for thou shalt know who is the good recompenser of the reward.
+>
+> Thou shalt not turn away him that needeth, but shalt share all things with thy brother, and shalt not say that they are thine own; for if you are fellow-sharers in that which is imperishable, how much more in perishable things?
+
+But importantly, though the Apostles are explicit on many things, they never draw on Malachi 3 nor on the _Torah_ witness on tithing.
+
 ## The Biblical Vision of Generosity
 
 BibleProject. (2019, October 17). [_Generosity_](https://www.youtube.com/watch?v=62CliEkRCso) [Video]. YouTube. https://www.youtube.com/watch?v=62CliEkRCso.
 
 [^1]: It is far out of scope here to nuance the word "sin" here. It is enough to say that we are better off thinking in terms of cultic purity than in terms of moral uprightness.
+[^2]: Croteau, D. _You Mean I Don't Have to Tithe?_
+[^3]: _The World of Leviticus_
