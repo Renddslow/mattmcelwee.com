@@ -128,3 +128,35 @@ footer a,
 .footnotes {
   margin-top: 48px;
 }
+
+.markdown table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+  margin-top: 0;
+  margin-bottom: 16px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  font-size: 0.8em;
+}
+
+.markdown table tr {
+  background-color: #fff;
+  border-top: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+.markdown table th {
+  font-weight: 600;
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 6px 13px;
+  border: 1px solid #d0d7de;
+}
+
+.markdown table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
