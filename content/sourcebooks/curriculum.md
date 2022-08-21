@@ -96,7 +96,7 @@ This is of course an inference and not strictly stated in the text. _Chanak_ (tr
 
 It has been highlighted too (and Milgrom draws on this definition in his Numbers commentary) that we might better render this as, "train up a child in the way that is right for them." This is a very important distinction.
 
-## A Good, Liberal, and Enlightened [Polis](https://en.wikipedia.org/wiki/Polis#The_polis_in_Ancient_Greek_philosophy)
+## A Good, Liberal, and Enlightened Polis
 
 Aristotle. (2004). _Nicomachean Ethics_ (Thomson, H. T. J. A. K., Trans.). Penguin Classics. (Originally published c. 335 – 322 BCE)
 
@@ -142,7 +142,7 @@ This is one of the most useful introductions to the basic history of [_de jure_]
 
 ---
 
-This sourcebook, outside of the Scripture references, largely focused on the need for education which benefits civic life – especially in a liberal, democratic polis. I have offered little in the way of Christian formation and education. To that end, I will also submit a small note of my own, which I hope to eventually develop into a full essay, but is now a collection of thoughts: [Children should have a robust Christian education](/christian-education/children).
+This sourcebook, outside of the Scripture references, largely focused on the need for education which benefits civic life – especially in a liberal, democratic [polis](https://en.wikipedia.org/wiki/Polis#The_polis_in_Ancient_Greek_philosophy). I have offered little in the way of Christian formation and education. To that end, I will also submit a small note of my own, which I hope to eventually develop into a full essay, but is now a collection of thoughts: [Children should have a robust Christian education](/christian-education/children).
 
 [^1]: And segregation. Randall Balmer is considered [the first to make this connection](https://www.amazon.com/Thy-Kingdom-Come-Religious-Threatens/dp/0465005209), but everyone from [Kruse](https://www.amazon.com/One-Nation-Under-God-Corporate/dp/1501238213) to [Du Mez](https://www.npr.org/2022/05/08/1097514184/how-abortion-became-a-mobilizing-issue-among-the-religious-right) to [Vischer](https://www.youtube.com/watch?v=RvWD7ykNjCc) have further highlighted the peculiarity in the evangelical (and then Moral Majority) rally around the pro-life cause.
 [^left-crt]: It's important to emphasize that within this rhetorical device I am not claiming that any proponent on the left is extending the discussion of race (as a content-area) beyond the subjects in which it has traditionally been taught (social studies, history, and occasionally language arts).

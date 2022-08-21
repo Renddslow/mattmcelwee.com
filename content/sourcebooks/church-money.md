@@ -1,5 +1,5 @@
 ---
-title: 'Church and the Money: A Sourcebook'
+title: 'The Church and Money: A Sourcebook'
 originalAuthor: Matt McElwee
 metaKnowledge:
   accuracy: ''
@@ -20,6 +20,8 @@ The Church was born out of the generosity of the Father in his giving his only S
 What _is_ complicated is the role of tithing in the Church. This sourcebook will therefore be divided into two sections. The first will address the question of tithing both in its biblical and its historical context. The second will address the biblical vision of generosity in general. The witness of Scripture is sufficient – in my opinion, to cover the latter case on its own and the voices of scholars and Church fathers from the first section ought to aid in offering context to the second. I will however include a BibleProject video.
 
 ## Tithing in the Church
+
+We see tithing (both the concept and the Hebrew word for it)
 
 ## The Biblical Vision of Generosity
 
