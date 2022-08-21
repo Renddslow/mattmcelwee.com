@@ -115,14 +115,20 @@ Fundamentally, we see in Jesus and in his followers up until Nicaea a very diffe
 
 ## The Biblical Vision of Generosity
 
+BibleProject has covered this vision of generosity quite well in the their study notes for their generosity video (noted below). Rather than regurgitating their notes here, [I offer a link to the PDF](https://d1bsmz3sdihplr.cloudfront.net/media/Study%20Notes/Generosity_Study-Notes.pdf) as the best possible source for this data.
+
 BibleProject. (2019, October 17). [_Generosity_](https://www.youtube.com/watch?v=62CliEkRCso) [Video]. YouTube. https://www.youtube.com/watch?v=62CliEkRCso.
 
-The following is a broad-sweeps view of the biblical vision of generosity in [canonical order](/bible/canonical-order).
+## Other Resources
 
-- **Genesis 1:29-30, Genesis 2:15-17**
-- **Psalm 104:10-17, 24-28**
-- **Luke 12:22-34**
+_On Social Justice (Schroeder, C. P., Trans.)_.
+
+Croteau, D. A. (2010). _You Mean I Dont Have to Tithe?: A Deconstruction of Tithing and a Reconstruction of Post-Tithe Giving_. Pickwick Publications.
+
+Paul: A Biography
+
+On Wealth and Poverty
 
 [^1]: It is far out of scope here to nuance the word "sin" here. It is enough to say that we are better off thinking in terms of cultic purity than in terms of moral uprightness.
-[^2]: Croteau, D. _You Mean I Don't Have to Tithe?_
+[^2]: Croteau, p 122.
 [^3]: _The World of Leviticus_
