@@ -107,11 +107,21 @@ In chapter 4, we are given a note on generosity:
 >
 > Thou shalt not turn away him that needeth, but shalt share all things with thy brother, and shalt not say that they are thine own; for if you are fellow-sharers in that which is imperishable, how much more in perishable things?
 
-But importantly, though the Apostles are explicit on many things, they never draw on Malachi 3 nor on the _Torah_ witness on tithing.
+But importantly, though the Apostles are explicit on many things, they never draw on Malachi 3 nor on the _Torah_ witness on tithing. Similarly, Paul, when writing both about the financial care due clergy (1 Cor. 9:9-14, 1 Tim. 5:17-18) and about the gift meant for the Jerusalem church in famine (2 Cor. 9) never draws on the _Torah_ witness on tithing nor on Malachi 3. Rather, he draws on the words of Jesus regarding generosity (Acts 20:35) and on a peculiar text from the _Torah_ (Deut. 25:4).
+
+Similarly, St. Basil of Caesarea and St. John Chrysostom, both ante-Nicene fathers who wrote prolificly on matters of wealth and generosity, never draw on the _Torah_ witness on tithing, neither the Levitical (storehouse) tithe nor the broader three tithe system. Rather, they draw most heavily on Paul's calls to generosity and Jesus' warnings to the wealthy.
+
+Fundamentally, we see in Jesus and in his followers up until Nicaea a very different disposition toward generosity. It flowed from a fidelity and zeal toward the Triune God, especially as revealed in Jesus, and was quite radical. There was little use of tithe commands, whether _Torah_ or prophetic.
 
 ## The Biblical Vision of Generosity
 
 BibleProject. (2019, October 17). [_Generosity_](https://www.youtube.com/watch?v=62CliEkRCso) [Video]. YouTube. https://www.youtube.com/watch?v=62CliEkRCso.
+
+The following is a broad-sweeps view of the biblical vision of generosity in [canonical order](/bible/canonical-order).
+
+- **Genesis 1:29-30, Genesis 2:15-17**
+- **Psalm 104:10-17, 24-28**
+- **Luke 12:22-34**
 
 [^1]: It is far out of scope here to nuance the word "sin" here. It is enough to say that we are better off thinking in terms of cultic purity than in terms of moral uprightness.
 [^2]: Croteau, D. _You Mean I Don't Have to Tithe?_
