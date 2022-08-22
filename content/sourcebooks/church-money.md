@@ -10,7 +10,7 @@ metaKnowledge:
 created: 2022-08-17T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-08-21
+  when: 2022-08-22
 ---
 
 The role of money and the Church is relatively uncomplicated. Since the earliest days of the Church, the community cared for the needs of their minister (likely first an elder (a role which evolved into the bishop) and then within a generation the priest) and for the needs of the poor and needy, first within their community and then without.
@@ -119,16 +119,20 @@ BibleProject has covered this vision of generosity quite well in the their study
 
 BibleProject. (2019, October 17). [_Generosity_](https://www.youtube.com/watch?v=62CliEkRCso) [Video]. YouTube. https://www.youtube.com/watch?v=62CliEkRCso.
 
+Ultimately, the witness of Scripture is one of radical generosity which first see's God as generous host and then Jesus as the ultimate gift. Our giving ought to be a loving, faithful response to the goodness of God and the gift of Jesus.
+
+My personal conviction is that a combined factor of teaching from the wrong lens (e.g. Malachi 3) and the continued decline in institutional trust in the United States is leading to an overall decline in giving with the so-called 10% baseline never being reached. [Barna is always a useful resource](https://www.barna.com/giving-landscape/) for tracking the nationwide trend in giving.
+
 ## Other Resources
 
-_On Social Justice (Schroeder, C. P., Trans.)_.
+Croteau, D. A. (2010). _You Mean I Don't Have to Tithe?: A Deconstruction of Tithing and a Reconstruction of Post-Tithe Giving_. Pickwick Publications.
 
-Croteau, D. A. (2010). _You Mean I Dont Have to Tithe?: A Deconstruction of Tithing and a Reconstruction of Post-Tithe Giving_. Pickwick Publications.
+St. Basil the Great. (2009). _On Social Justice_ (Schroeder, C. P., Trans.). St Vladimirs Seminary Pr.
 
-Paul: A Biography
+St. John Chrysostom. (2020). _On Wealth and Poverty_ (2nd edition) (Hanegraaff, H., Trans.). St Vladimirs Seminary Pr. (Originally published c. 381 - 407 CE)
 
-On Wealth and Poverty
+Wright, N. T. (2020). _Paul: A Biography_. HarperOne.
 
 [^1]: It is far out of scope here to nuance the word "sin" here. It is enough to say that we are better off thinking in terms of cultic purity than in terms of moral uprightness.
 [^2]: Croteau, p 122.
-[^3]: _The World of Leviticus_
+[^3]: Scarlata, M. W. (2021). _A Journey Through the World of Leviticus: Holiness, Sacrifice, and the Rock Badger_. Cascade Books.
