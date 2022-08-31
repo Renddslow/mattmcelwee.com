@@ -46,7 +46,7 @@
     "prestart": "yarn backlink",
     "clean": "rimraf public",
     "start": "netlify dev",
-    "prebuild": "yarn clean",
+    "prebuild": "yarn clean && yarn backlink",
     "build": "node build/index.js",
     "postbuild": "prettier --write public",
     "prepare": "husky install",
