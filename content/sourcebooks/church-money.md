@@ -3,9 +3,9 @@ title: 'The Church and Money: A Sourcebook'
 originalAuthor: Matt McElwee
 metaKnowledge:
   accuracy: ''
-  certainty: possible
-  completeness: Incomplete
-  effort: Merely created a stub
+  certainty: likely
+  completeness: "Complete, though that completeness is largely achieved by linking away to BibleProject's own work on the topic."
+  effort: "Synthesized more than 3 years of study on the topics of generosity and the Levitical tithe system."
   preRequisites: ''
 created: 2022-08-17T00:00:00.000Z
 lastTended:
