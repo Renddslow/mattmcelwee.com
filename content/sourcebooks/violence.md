@@ -27,6 +27,8 @@ Beating Guns
 - https://enemylove.com/40-early-church-quotes-on-violence-enemy-love-patriotism/
 - https://www.newadvent.org/fathers/0126.htm
 - https://www.newadvent.org/fathers/01288.htm
+- https://web.archive.org/web/20110708082106/http://www.bombaxo.com/hippolytus.html
+- https://www.newadvent.org/fathers/0302.htm
 
 ## The Imago Dei as Foundation
 
