@@ -17,7 +17,7 @@ metaKnowledge:
 created: 2022-08-14T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-08-21
+  when: 2023-04-23
 ---
 
 The culture war seems to be shifting. When it began, the central focus was on abortion.[^1] It extended out with concerns of feminism, sexual mores, and the like. In the last two years, a seismic shift seems to have taken place. Rather than the culture war being defined by a vision of morality, as in Haidt's [moral foundations theory](https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777), the culture war seems to have shifted to what we believe to be true about our purpose and praxis as a nation.
@@ -68,11 +68,11 @@ The first time in the Bible that the writing of the Bible is mentioned.
 
 **Leviticus 10, Leviticus 14, Deuteronomy 24, Deuteronomy 33**
 
-Here we see the Levites tasked the responsibility of teaching the instructions (_torah_) of YHWH to the people of Israel. This is something that was meant to be retained over generations, to keep the memory of these instructions. What we see in Judges especially (and then drawn on in Ruth much later) is that the Levites had neglected the teaching of the _torah_ and even participated in apostasy and violence (cf. Judges 18-28).
+Here we see the Levites tasked the responsibility of teaching the instructions (_torah_) of יהוה to the people of Israel. This is something that was meant to be retained over generations, to keep the memory of these instructions. What we see in Judges especially (and then drawn on in Ruth much later) is that the Levites had neglected the teaching of the _torah_ and even participated in apostasy and violence (cf. Judges 18-28).
 
 **Deuteronomy 4-6, 11**
 
-The memory of the _torah_ and of YHWH's sovereignty is meant to be kept by the people in their daily practice. The _shema_ of Deuteronomy 6 was prayed every morning and night, even bound in boxes and tied to the forehead or right hand as a way of keeping the _torah_ always on their minds. They are instructed to teach them to their children. In this way, whole community participates in passing the _torah_ on, both by explicitly teaching and by keeping the commands.
+The memory of the _torah_ and of יהוה's sovereignty is meant to be kept by the people in their daily practice. The _shema_ of Deuteronomy 6 was prayed every morning and night, even bound in boxes and tied to the forehead or right hand as a way of keeping the _torah_ always on their minds. They are instructed to teach them to their children. In this way, whole community participates in passing the _torah_ on, both by explicitly teaching and by keeping the commands.
 
 **Deuteronomy 17**
 
@@ -84,9 +84,9 @@ Two reminders even into the darkest times of Israel's history of the role of the
 
 **Psalm 71**
 
-Psalm 71 is among many Psalms (and so is offered as representative of the whole) that speak of YHWH's teaching of the Psalmist. The Psalmist's response is a deep zeal that wishes to proclaim the mighty deeds of YHWH to the next generation.
+Psalm 71 is among many Psalms (and so is offered as representative of the whole) that speak of יהוה's teaching of the Psalmist. The Psalmist's response is a deep zeal that wishes to proclaim the mighty deeds of יהוה to the next generation.
 
-We ought to consider in all of these Psalms examples that the Psalmist may well be speaking of the _Torah_ as the instruction of YHWH and personalizing it, as though YHWH had personally taught it in a classroom to the Psalmist. This is not to say that YHWH met on a mountaintop with the Psalmist, but that YHWH's instruction (_torah_) is always new and fresh, teaching each generation as if being taught for the first time.
+We ought to consider in all of these Psalms examples that the Psalmist may well be speaking of the _Torah_ as the instruction of יהוה and personalizing it, as though יהוה had personally taught it in a classroom to the Psalmist. This is not to say that יהוה met on a mountaintop with the Psalmist, but that יהוה's instruction (_torah_) is always new and fresh, teaching each generation as if being taught for the first time.
 
 **Proverbs 22:6**
 
