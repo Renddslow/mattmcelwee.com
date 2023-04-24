@@ -15,7 +15,7 @@ metaKnowledge:
 created: 2021-04-21T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2021-12-28
+  when: 2023-04-23
 ---
 
 ---!abstract
@@ -83,9 +83,9 @@ lastTended:
 [^transitive]: I think this is far more complex now (8 months hence) to be overly simplistic, perhaps even reductive. The precise nature of inspiration – a Divine-human partnership expressed in written form – need not relegate itself to the canon. I think we may readily call the canon closed while not limiting inspiration.
 [^redactors]: I would add, though not directly germane to hermeneutics, that, in my opinion, this is the best ordering for a first-time Bible reader and has significant pedagogical value.
 [^hagar]:
-    A compelling example of this is the name “Hagar” in Genesis. An English reading of Genesis 16 would still communicate the same meaning intended by the Holy Spirit and the human authors: Abram and Sarai abused their slave girl in an attempt to accomplish YHWH’s covenant through their own devices. Yet YHWH sees the girl and promises a great nation from her seed.
+    A compelling example of this is the name “Hagar” in Genesis. An English reading of Genesis 16 would still communicate the same meaning intended by the Holy Spirit and the human authors: Abram and Sarai abused their slave girl in an attempt to accomplish יהוה’s covenant through their own devices. Yet יהוה sees the girl and promises a great nation from her seed.
 
-    However, in doing a word study of the Hebrew word _ger_ (immigrant or alien), which is often included in what [Tim Keller calls](https://www.amazon.com/Generous-Justice-Gods-Grace-Makes/dp/1594486077) “the quartet of the vulnerable,” you would find that Hagar’s name literally means “the immigrant” (_ha ger_). Given YHWH’s great care for the immigrant throughout Scripture, we see doubly the sins of Abram here. However, this only adds weight to the meaning already clearly communicated in the text.
+    However, in doing a word study of the Hebrew word _ger_ (immigrant or alien), which is often included in what [Tim Keller calls](https://www.amazon.com/Generous-Justice-Gods-Grace-Makes/dp/1594486077) “the quartet of the vulnerable,” you would find that Hagar’s name literally means “the immigrant” (_ha ger_). Given יהוה’s great care for the immigrant throughout Scripture, we see doubly the sins of Abram here. However, this only adds weight to the meaning already clearly communicated in the text.
 
 [^sitz]: I would like to hedge this a little bit. I think this is true of the Biblical text because of the text we have received. I would not take 20 or 21 to be universally true of all texts. But with regard to the Biblical texts, the Holy Spirit did not leave us with a collection of prose discourse and poetry. We are presented with the necessary “historical” texts as well. The so-called _sitz im leben_ of the prophets could be said to have been given in Kings (or in Jeremiah’s case, his own book). The Apostles have their so-called _sitz im leben_ given in the Gospels and Acts. Therefore, I would affirm that the Holy Spirit has given us what is necessary in this arena in the canon itself.
 [^factual]: Words which here are virtually devoid of meaning in this context.
