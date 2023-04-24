@@ -23,6 +23,18 @@ Tallest Tower
 
 Beating Guns
 
+- http://www.earlychristianwritings.com/text/tatian-address.html
+- https://enemylove.com/40-early-church-quotes-on-violence-enemy-love-patriotism/
+- https://www.newadvent.org/fathers/0126.htm
+- https://www.newadvent.org/fathers/01288.htm
+- https://web.archive.org/web/20110708082106/http://www.bombaxo.com/hippolytus.html
+- https://www.newadvent.org/fathers/0302.htm
+- https://www.newadvent.org/fathers/0416.htm
+- https://archive.org/details/nonviolencetwent00kurl
+- https://www.thefenwickreview.com/archive/pope-francis-and-a-catholic-analysis-of-gun-violence
+
+Blackstone, development of human rights
+
 ## The Imago Dei as Foundation
 
 ## The Biblical Witness on Violence
