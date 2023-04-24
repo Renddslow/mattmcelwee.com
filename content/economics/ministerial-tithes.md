@@ -11,7 +11,7 @@ metaKnowledge:
 created: 2023-04-23T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2023-04-23
+  when: 2023-04-24
 ---
 
 Pithy intro...
@@ -43,6 +43,8 @@ I will argue below that both of these approaches are immoral and offer an anemic
 
 I have developed elsewhere a greater treatment on [the Biblical data of tithing](/sourcebooks/church-money/). In short, the people of God following Sinai were taught to contribute between 23.3% and 33% of their [profit](/economics/tithing-debt/) year-over-year. Sandra Richter has pointed out that the Israelite community were predominantly subsistence farmers during this period.[^richter-1] As a result, the a ten-percent tithe alone would have a significant impact on their ability to survive, let alone the anticipated 33%. Nevertheless, if we may adopt an interpretive mode, it is clear that יהוה sees the provision of priests, the observance of festivals, and the care for the quartet of the vulnerable[^quartet] as a need which prioritizes self-sacrifice or self-preservation.
 
+A line of argument has then developed on this to this in more recent times which argues has largely argued that the tithe for the needs of the Levites (alternately called the storehouse tithe in reference to Malachi 3) [^croteau-1]
+
 ## Theology and History
 
 1. Didache
@@ -54,3 +56,5 @@ I have developed elsewhere a greater treatment on [the Biblical data of tithing]
 [^efree-tithe]: The Evangelical Free Church has very little published online about giving in general, let alone any notion that their members are expected to tithe. While many denominations will include the tithe in a book of order or denominational bylaws, the EFCA has no such statement. It has been marked "no" for this reason.
 [^district]: This is not actually backed by any specific document I have encountered through the AG. Rather, it is the most common defense by ministers within the AG for this practice.
 [^richter-1]: Richter, Sandra, _Stewards of Eden: What Scripture Says About the Environment and Why It Matters_, (Downers Grove, IL: IVP Academic, 2020).
+[^quartet]: This is a term developed by Tim Keller in his book _Generous Justice_.
+[^croteau-1]: Croteau, David A., _You Mean I Dont Have to Tithe?: A Deconstruction of Tithing and a Reconstruction of Post-Tithe Giving_, (Eugene, OR: Pickwick Publications, 2010).
