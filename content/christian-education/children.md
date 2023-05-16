@@ -7,10 +7,11 @@ metaKnowledge:
   completeness: Incomplete
   effort: Merely created a stub
   preRequisites: ''
+  type: Stable Note
 created: 2022-08-21T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-08-31
+  when: 2023-05-16
 ---
 
 The Church has long held the three pillars of [catechism](/christian-education/catechism-need) as [the Apostles' Creed](!W), [the Lord's Prayer](!W), and [the Ten Commandments](!W). This is reflected everywhere from Westminster Catechism to the Catechism of the Catholic Church. As these make up the basics of the faith for the faithful, they should similarly make up the foundation of the Christian education of children.[^children]

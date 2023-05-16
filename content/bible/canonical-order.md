@@ -7,10 +7,11 @@ metaKnowledge:
   completeness: Incomplete
   effort: Merely created a stub
   preRequisites: ''
+  type: Stable Note
 created: 2022-08-21T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-08-21
+  when: 2023-05-16
 ---
 
 ---!abstract

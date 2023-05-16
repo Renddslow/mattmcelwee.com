@@ -12,10 +12,11 @@ metaKnowledge:
   effort: This was one of the culminating efforts of a hermeneutics class and my
     undergrad in general. It seeks to synthesize roughly 3 years of personal and
     academic study on Biblical interpretation.
+  type: Position Paper
 created: 2021-04-21T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2023-04-23
+  when: 2023-05-16
 ---
 
 ---!abstract

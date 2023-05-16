@@ -7,10 +7,11 @@ metaKnowledge:
     expect to add the _Institutes_ with an annotation soon.
   certainty: likely
   completeness: log
+  type: Stable Note
 created: 2021-04-28T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2021-11-05
+  when: 2023-05-16
 ---
 
 Here is a short bibliography that convinced me of Real Presence and the efficacy of the Blessed Sacrament as a means of grace.

@@ -10,9 +10,10 @@ metaKnowledge:
     work](https://devdocs.dmsi.com/docs-manifesto) I had done for my team's [dev
     docs site](https://devdocs.dmsi.com/).
   completeness: Incomplete
+  type: Stable Note
 lastTended:
   by: Matt McElwee
-  when: 2022-08-18
+  when: 2023-05-16
 created: 2021-10-27T00:00:00.000Z
 ---
 

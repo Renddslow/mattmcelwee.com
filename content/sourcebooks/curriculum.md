@@ -14,10 +14,11 @@ metaKnowledge:
     that effort and an attempt to bring that together to form a sourcebook
     oriented towards current concerns about curriculum in public schools.
   preRequisites: ''
+  type: Essay
 created: 2022-08-14T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2023-04-23
+  when: 2023-05-16
 ---
 
 The culture war seems to be shifting. When it began, the central focus was on abortion.[^1] It extended out with concerns of feminism, sexual mores, and the like. In the last two years, a seismic shift seems to have taken place. Rather than the culture war being defined by a vision of morality, as in Haidt's [moral foundations theory](https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777), the culture war seems to have shifted to what we believe to be true about our purpose and praxis as a nation.

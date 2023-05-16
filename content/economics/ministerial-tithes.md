@@ -8,10 +8,11 @@ metaKnowledge:
   effort: Merely created a stub
   preRequisites: The sourcebook on [the church and
     money](/sourcebooks/church-money/) is a useful starting point.
+  type: Essay
 created: 2023-04-23T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2023-04-24
+  when: 2023-05-16
 ---
 
 Pithy intro...

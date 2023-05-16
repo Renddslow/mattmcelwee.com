@@ -9,10 +9,11 @@ metaKnowledge:
     Evangelicalism and the megachurch movement. This is a term I have used in my
     personal vocabulary for over three years, and am now attempting to
     thoroughly define it and create a reference work for future use.
+  type: Essay
 created: 2022-07-19T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-07-27
+  when: 2023-05-16
 ---
 
 ---!abstract

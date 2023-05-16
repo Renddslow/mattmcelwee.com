@@ -4,15 +4,15 @@ originalAuthor: Matt McElwee
 metaKnowledge:
   accuracy: ''
   certainty: likely
-  completeness: Complete, though that completeness is largely achieved by linking
-    away to BibleProject's own work on the topic.
+  completeness: Complete
   effort: Synthesized more than 3 years of study on the topics of generosity and
     the Levitical tithe system.
   preRequisites: ''
+  type: Essay
 created: 2022-08-17T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2023-04-23
+  when: 2023-05-16
 ---
 
 The role of money and the Church is relatively uncomplicated. Since the earliest days of the Church, the community cared for the needs of their minister (likely first an elder (a role which evolved into the bishop) and then within a generation the priest) and for the needs of the poor and needy, first within their community and then without.

@@ -10,10 +10,11 @@ metaKnowledge:
     for [Flatland Church](https://flatlandchurch.com). In it's initial iteration
     here is is largely unchanged, but needs a lot of work.
   preRequisites: ''
+  type: Stable Note
 created: 2022-08-31T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-08-31
+  when: 2023-05-16
 ---
 
 Jesus commanded his followers to disciple the nations. This command has followed each generation of the Church in an unbroken succession since Christ’s Resurrection. A necessary component of this discipling is naturally, first, the conversion of people through the power of the Holy Spirit, repentance, and acceptance of Christ’s kingship.

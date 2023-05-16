@@ -11,10 +11,11 @@ metaKnowledge:
     McCarreher and have been pining over some sort of synthesis that culminates
     in Sabbath rest and Revelation 18.
   preRequisites: ''
+  type: Essay
 created: 2020-08-24T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2021-11-05
+  when: 2023-05-16
 ---
 
 I was thinking about economics this past week. The thoughts were a convergence of two separate projects, the one for an ethics paper on the role of economics in the life of the Christian, and the other a [short explainer piece](https://flatlandchurch.com/series/homes-of-influence#week-1) on the Sabbath as a spiritual discipline for my Church. As I reflected on a Christian ethic of economics I came to realize how intrinsic the role of Sabbath is in our view of commerce.

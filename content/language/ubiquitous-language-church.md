@@ -7,10 +7,11 @@ metaKnowledge:
   completeness: Incomplete
   effort: Merely created a stub
   preRequisites: ''
+  type: Essay
 created: 2022-07-19T00:00:00.000Z
 lastTended:
   by: Matt McElwee
-  when: 2022-08-14
+  when: 2023-05-16
 ---
 
 ---!abstract

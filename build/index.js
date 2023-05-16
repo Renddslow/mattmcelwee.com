@@ -17,6 +17,7 @@ import compileInlineStyles from './compileInlineStyles.js';
 import createIndexPage from './createIndexPage.js';
 import makeBibliography from './makeBibliography.js';
 import createDirectory from './createDirectory.js';
+import createImage from './createImage.js';
 
 const TAB = '    ';
 
@@ -69,6 +70,7 @@ const fnTry = (cb) => {
     filesToProcess.map(async (f) => {
       const { content, ...params } = await processFile(f);
       const author = get(params, 'lastTended.by') || params.originalAuthor || 'Matt McElwee';
+      const thumbnail = f.name !== '_index' ? await createImage(params, f.filepath) : '';
       return {
         ...f,
         site: {
@@ -84,6 +86,8 @@ const fnTry = (cb) => {
         relPermalink: createPath(f.filepath),
         title: params.title,
         tagsStr: (params.tags || []).join(', '),
+        thumbnail,
+        // TODO: update to describe image
         thumbnailAlt: `Pre-generated thumbnail for the essay with the title "${params.title}" in bold face font.`,
         params: {
           ...params,
