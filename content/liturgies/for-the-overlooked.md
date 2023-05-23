@@ -15,6 +15,12 @@ lastTended:
   when: 2023-05-23
 ---
 
+---!abstract
+
+A short liturgy of prayers and Scriptures for when you feel overlooked and like you aren't heard or someone else is stealing the credit for the work you've done.
+
+---!markdown
+
 > Blessed are the meek, for they will inherit the earth. Blessed are those who hunger and thirst for righteousness, for they will be filled. (Matthew 5:5–6)
 
 O Lord, open our lips
