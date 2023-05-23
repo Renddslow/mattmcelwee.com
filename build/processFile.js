@@ -21,7 +21,9 @@ const make = async ({ rawContent: file }) => {
             .use(remarkGfm)
             .use(createTOC)
             .use(toHTML)
-            .use(rehypeStringify)
+            .use(rehypeStringify, {
+              allowDangerousHtml: true,
+            })
             .process(block.content);
         }
         return block;

@@ -18,26 +18,26 @@ lastTended:
 > Blessed are the meek, for they will inherit the earth. Blessed are those who hunger and thirst for righteousness, for they will be filled. (Matthew 5:5–6)
 
 O Lord, open our lips
-<br />And our mouth shall proclaim your praise.
+<br /> And our mouth shall proclaim your praise.
 
 O God, make speed to save us.
-<br />O Lord, make haste to help us.
+<br /> O Lord, make haste to help us.
 
 Glory to the Father,
-<br />and to the Son,
-<br />and to the Holy Spirit.
+<br /> and to the Son,
+<br /> and to the Holy Spirit.
 
 As it was in the beginning,
-<br />is now, and ever shall be
-<br />world without end. **Amen.**
+<br /> is now, and ever shall be
+<br /> world without end. **Amen.**
 
 ---
 
-## A Prayer for Serenity
+**A Prayer for Serenity**
 
 God, grant me the serenity to accept the things I cannot change,
-<br />the courage to change the things I can,
-<br />and the wisdom to know the difference.
+<br /> the courage to change the things I can,
+<br /> and the wisdom to know the difference.
 
 ---
 
@@ -74,25 +74,25 @@ Jesus had compassion on them and touched their eyes. Immediately they received t
 If, then, there is any comfort in Christ, any consolation from love, any partnership in the Spirit, any tender affection and sympathy, make my joy complete: be of the same mind, having the same love, being in full accord and of one mind. Do nothing from selfish ambition or empty conceit, but in humility regard others as better than yourselves. Let each of you look not to your own interests but to the interests of others. Let the same mind be in you that was in Christ Jesus,
 
 who, though he existed in the form of God,
-<br />did not regard equality with God
-<br />as something to be grasped,
-<br />but emptied himself,
-<br />taking the form of a slave,
-<br />assuming human likeness.
-<br />And being found in appearance as a human,
-<br />he humbled himself
-<br />and became obedient to the point of death—
-<br />even death on a cross.
+<br /> did not regard equality with God
+<br /> as something to be grasped,
+<br /> but emptied himself,
+<br /> taking the form of a slave,
+<br /> assuming human likeness.
+<br /> And being found in appearance as a human,
+<br /> he humbled himself
+<br /> and became obedient to the point of death—
+<br /> even death on a cross.
 
 Therefore God exalted him even more highly
-<br />and gave him the name
-<br />that is above every other name,
-<br />so that at the name given to Jesus
-<br />every knee should bend,
-<br />in heaven and on earth and under the earth,
-<br />and every tongue should confess
-<br />that Jesus Christ is Lord,
-<br />to the glory of God the Father.
+<br /> and gave him the name
+<br /> that is above every other name,
+<br /> so that at the name given to Jesus
+<br /> every knee should bend,
+<br /> in heaven and on earth and under the earth,
+<br /> and every tongue should confess
+<br /> that Jesus Christ is Lord,
+<br /> to the glory of God the Father.
 
 Therefore, my beloved, just as you have always obeyed me, not only in my presence but much more now in my absence, work on your own salvation with fear and trembling, for it is God who is at work in you, enabling you both to will and to work for his good pleasure.
 
@@ -100,11 +100,11 @@ Do all things without murmuring and arguing, so that you may be blameless and in
 
 ---
 
-## A Prayer for Serenity
+**A Prayer for Serenity**
 
 God, grant me the serenity to accept the things I cannot change,
-<br />the courage to change the things I can,
-<br />and the wisdom to know the difference.
+<br /> the courage to change the things I can,
+<br /> and the wisdom to know the difference.
 
 ---
 
